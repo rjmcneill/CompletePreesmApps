@@ -299,7 +299,7 @@
     </children>
   </children>
   <children xsi:type="pi:ContainerShape" visible="true" active="true">
-    <graphicsAlgorithm xsi:type="al:Polygon" background="//@colors.5" foreground="//@colors.6" lineWidth="2" filled="true" transparency="0.0" width="70" height="40" x="410" y="150">
+    <graphicsAlgorithm xsi:type="al:Polygon" background="//@colors.5" foreground="//@colors.6" lineWidth="2" filled="true" transparency="0.0" width="70" height="40" x="360" y="150">
       <points x="35"/>
       <points x="70" y="26"/>
       <points x="70" y="40"/>

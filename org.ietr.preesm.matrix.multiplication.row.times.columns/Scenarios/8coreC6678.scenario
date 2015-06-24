@@ -1,30 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <scenario>
     <files>
-        <algorithm url="/org.ietr.preesm.array.multiplication.row.times.columns/Algo/multiply.pi"/>
-        <architecture url="/org.ietr.preesm.array.multiplication.row.times.columns/Archi/8CoreC6678.slam"/>
-        <codegenDirectory url="/org.ietr.preesm.array.multiplication.row.times.columns/Code6678/generated"/>
+        <algorithm url="/org.ietr.preesm.matrix.multiplication.row.times.columns/Algo/multiply.pi"/>
+        <architecture url="/org.ietr.preesm.matrix.multiplication.row.times.columns/Archi/8CoreC6678.slam"/>
+        <codegenDirectory url="/org.ietr.preesm.matrix.multiplication.row.times.columns/Code6678/generated"/>
     </files>
     <constraints excelUrl="">
         <constraintGroup>
-            <operator name="Core5"/>
+            <operator name="Core1"/>
+            <task name="multiply/generateMatricies"/>
             <task name="multiply/multiplyMatricies"/>
+            <task name="multiply/displayMatrix"/>
+            <task name="multiply"/>
+            <task name="multiply/broadcastArrayB"/>
+        </constraintGroup>
+        <constraintGroup>
+            <operator name="Core5"/>
+            <task name="multiply/generateMatricies"/>
+            <task name="multiply/multiplyMatricies"/>
+            <task name="multiply/displayMatrix"/>
+            <task name="multiply"/>
+            <task name="multiply/broadcastArrayB"/>
         </constraintGroup>
         <constraintGroup>
             <operator name="Core3"/>
+            <task name="multiply/generateMatricies"/>
             <task name="multiply/multiplyMatricies"/>
-        </constraintGroup>
-        <constraintGroup>
-            <operator name="Core6"/>
-            <task name="multiply/multiplyMatricies"/>
-        </constraintGroup>
-        <constraintGroup>
-            <operator name="Core7"/>
-            <task name="multiply/multiplyMatricies"/>
-        </constraintGroup>
-        <constraintGroup>
-            <operator name="Core2"/>
-            <task name="multiply/multiplyMatricies"/>
+            <task name="multiply/displayMatrix"/>
+            <task name="multiply"/>
+            <task name="multiply/broadcastArrayB"/>
         </constraintGroup>
         <constraintGroup>
             <operator name="Core0"/>
@@ -35,12 +39,36 @@
             <task name="multiply/broadcastArrayB"/>
         </constraintGroup>
         <constraintGroup>
-            <operator name="Core1"/>
+            <operator name="Core6"/>
+            <task name="multiply/generateMatricies"/>
             <task name="multiply/multiplyMatricies"/>
+            <task name="multiply/displayMatrix"/>
+            <task name="multiply"/>
+            <task name="multiply/broadcastArrayB"/>
+        </constraintGroup>
+        <constraintGroup>
+            <operator name="Core2"/>
+            <task name="multiply/generateMatricies"/>
+            <task name="multiply/multiplyMatricies"/>
+            <task name="multiply/displayMatrix"/>
+            <task name="multiply"/>
+            <task name="multiply/broadcastArrayB"/>
+        </constraintGroup>
+        <constraintGroup>
+            <operator name="Core7"/>
+            <task name="multiply/generateMatricies"/>
+            <task name="multiply/multiplyMatricies"/>
+            <task name="multiply/displayMatrix"/>
+            <task name="multiply"/>
+            <task name="multiply/broadcastArrayB"/>
         </constraintGroup>
         <constraintGroup>
             <operator name="Core4"/>
+            <task name="multiply/generateMatricies"/>
             <task name="multiply/multiplyMatricies"/>
+            <task name="multiply/displayMatrix"/>
+            <task name="multiply"/>
+            <task name="multiply/broadcastArrayB"/>
         </constraintGroup>
     </constraints>
     <relativeconstraints excelUrl=""/>

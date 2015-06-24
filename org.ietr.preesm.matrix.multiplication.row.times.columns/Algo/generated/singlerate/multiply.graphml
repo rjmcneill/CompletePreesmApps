@@ -21,13 +21,9 @@
         <data key="kind">sdf</data>
         <data key="variables">
             <variable name="squaredSize" value="4096"/>
-            <variable name="columnsB" value="256"/>
-            <variable name="columnsA" value="256"/>
-            <variable name="rowsA" value="256"/>
-            <variable name="rowsB" value="256"/>
         </data>
         <node id="generateMatricies">
-            <data key="graph_desc">org.ietr.preesm.codegen.idl.ActorPrototypes@e6bef6</data>
+            <data key="graph_desc">org.ietr.preesm.codegen.idl.ActorPrototypes@e4443e</data>
             <data key="name">generateMatricies</data>
             <data key="kind">vertex</data>
             <data key="nbRepeat">1</data>
@@ -39,7 +35,7 @@
             </data>
         </node>
         <node id="multiplyMatricies_0">
-            <data key="graph_desc">org.ietr.preesm.codegen.idl.ActorPrototypes@10326b0</data>
+            <data key="graph_desc">org.ietr.preesm.codegen.idl.ActorPrototypes@3c45fa</data>
             <data key="name">multiplyMatricies_0</data>
             <data key="kind">vertex</data>
             <data key="nbRepeat">1</data>
@@ -51,7 +47,7 @@
             </data>
         </node>
         <node id="multiplyMatricies_1">
-            <data key="graph_desc">org.ietr.preesm.codegen.idl.ActorPrototypes@10326b0</data>
+            <data key="graph_desc">org.ietr.preesm.codegen.idl.ActorPrototypes@3c45fa</data>
             <data key="name">multiplyMatricies_1</data>
             <data key="kind">vertex</data>
             <data key="nbRepeat">1</data>
@@ -63,7 +59,7 @@
             </data>
         </node>
         <node id="multiplyMatricies_2">
-            <data key="graph_desc">org.ietr.preesm.codegen.idl.ActorPrototypes@10326b0</data>
+            <data key="graph_desc">org.ietr.preesm.codegen.idl.ActorPrototypes@3c45fa</data>
             <data key="name">multiplyMatricies_2</data>
             <data key="kind">vertex</data>
             <data key="nbRepeat">1</data>
@@ -75,7 +71,7 @@
             </data>
         </node>
         <node id="multiplyMatricies_3">
-            <data key="graph_desc">org.ietr.preesm.codegen.idl.ActorPrototypes@10326b0</data>
+            <data key="graph_desc">org.ietr.preesm.codegen.idl.ActorPrototypes@3c45fa</data>
             <data key="name">multiplyMatricies_3</data>
             <data key="kind">vertex</data>
             <data key="nbRepeat">1</data>
@@ -87,7 +83,7 @@
             </data>
         </node>
         <node id="multiplyMatricies_4">
-            <data key="graph_desc">org.ietr.preesm.codegen.idl.ActorPrototypes@10326b0</data>
+            <data key="graph_desc">org.ietr.preesm.codegen.idl.ActorPrototypes@3c45fa</data>
             <data key="name">multiplyMatricies_4</data>
             <data key="kind">vertex</data>
             <data key="nbRepeat">1</data>
@@ -99,7 +95,7 @@
             </data>
         </node>
         <node id="multiplyMatricies_5">
-            <data key="graph_desc">org.ietr.preesm.codegen.idl.ActorPrototypes@10326b0</data>
+            <data key="graph_desc">org.ietr.preesm.codegen.idl.ActorPrototypes@3c45fa</data>
             <data key="name">multiplyMatricies_5</data>
             <data key="kind">vertex</data>
             <data key="nbRepeat">1</data>
@@ -111,7 +107,7 @@
             </data>
         </node>
         <node id="multiplyMatricies_6">
-            <data key="graph_desc">org.ietr.preesm.codegen.idl.ActorPrototypes@10326b0</data>
+            <data key="graph_desc">org.ietr.preesm.codegen.idl.ActorPrototypes@3c45fa</data>
             <data key="name">multiplyMatricies_6</data>
             <data key="kind">vertex</data>
             <data key="nbRepeat">1</data>
@@ -123,7 +119,7 @@
             </data>
         </node>
         <node id="multiplyMatricies_7">
-            <data key="graph_desc">org.ietr.preesm.codegen.idl.ActorPrototypes@10326b0</data>
+            <data key="graph_desc">org.ietr.preesm.codegen.idl.ActorPrototypes@3c45fa</data>
             <data key="name">multiplyMatricies_7</data>
             <data key="kind">vertex</data>
             <data key="nbRepeat">1</data>
@@ -135,7 +131,7 @@
             </data>
         </node>
         <node id="displayMatrix">
-            <data key="graph_desc">org.ietr.preesm.codegen.idl.ActorPrototypes@1e0ee5b</data>
+            <data key="graph_desc">org.ietr.preesm.codegen.idl.ActorPrototypes@1165bb4</data>
             <data key="name">displayMatrix</data>
             <data key="kind">vertex</data>
             <data key="nbRepeat">1</data>
