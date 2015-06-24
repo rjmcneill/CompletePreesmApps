@@ -32,150 +32,146 @@
         <data key="SCHEDULE_COST">0</data>
         <data key="variables">
             <variable name="squaredSize" value="4096"/>
-            <variable name="columnsB" value="8"/>
-            <variable name="columnsA" value="8"/>
-            <variable name="rowsA" value="8"/>
-            <variable name="rowsB" value="8"/>
         </data>
-        <node id="generateMatricies" kind="vertex">
-            <data key="name">generateMatricies</data>
+        <node id="generateMatrices" kind="vertex">
+            <data key="name">generateMatrices</data>
             <data key="kind">dag_vertex</data>
             <data key="time">0</data>
             <data key="nb_repeat">1</data>
             <data key="OperatorDef">c6678</data>
-            <data key="availableOperators">[Core0]</data>
-            <data key="originalId">364a4247-c2fb-4dd8-8695-1eb99ca6407f</data>
+            <data key="availableOperators">[Core6, Core0, Core3, Core4, Core7, Core1, Core2, Core5]</data>
+            <data key="originalId">429d2a3c-2a45-4d32-b17a-3e2bcc4cbfb0</data>
             <data key="duration">-1</data>
             <data key="schedulingOrder">0</data>
-            <data key="Operator">Core0</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="graph_desc"/>
-            <data key="arguments"/>
-        </node>
-        <node id="multiplyMatricies_0" kind="vertex">
-            <data key="name">multiplyMatricies_0</data>
-            <data key="kind">dag_vertex</data>
-            <data key="time">0</data>
-            <data key="nb_repeat">1</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="availableOperators">[Core3, Core4, Core7, Core2, Core0, Core5, Core1, Core6]</data>
-            <data key="originalId">ee5a593d-2867-442a-8cf2-d22aef36292b</data>
-            <data key="duration">-1</data>
-            <data key="schedulingOrder">32</data>
             <data key="Operator">Core6</data>
             <data key="OperatorDef">c6678</data>
             <data key="OperatorDef">c6678</data>
             <data key="graph_desc"/>
             <data key="arguments"/>
         </node>
-        <node id="multiplyMatricies_1" kind="vertex">
-            <data key="name">multiplyMatricies_1</data>
+        <node id="multiplyMatrices_0" kind="vertex">
+            <data key="name">multiplyMatrices_0</data>
             <data key="kind">dag_vertex</data>
             <data key="time">0</data>
             <data key="nb_repeat">1</data>
             <data key="OperatorDef">c6678</data>
-            <data key="availableOperators">[Core3, Core4, Core7, Core2, Core0, Core5, Core1, Core6]</data>
-            <data key="originalId">31f30905-d476-4144-b5c0-df6791c34120</data>
+            <data key="availableOperators">[Core6, Core0, Core3, Core4, Core7, Core1, Core2, Core5]</data>
+            <data key="originalId">609b9b97-a9b4-4c81-bea7-bd40f9631058</data>
             <data key="duration">-1</data>
-            <data key="schedulingOrder">35</data>
-            <data key="Operator">Core4</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="graph_desc"/>
-            <data key="arguments"/>
-        </node>
-        <node id="multiplyMatricies_2" kind="vertex">
-            <data key="name">multiplyMatricies_2</data>
-            <data key="kind">dag_vertex</data>
-            <data key="time">0</data>
-            <data key="nb_repeat">1</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="availableOperators">[Core3, Core4, Core7, Core2, Core0, Core5, Core1, Core6]</data>
-            <data key="originalId">dd2941a2-5dd4-469c-8e15-44e9d7e06011</data>
-            <data key="duration">-1</data>
-            <data key="schedulingOrder">38</data>
-            <data key="Operator">Core1</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="graph_desc"/>
-            <data key="arguments"/>
-        </node>
-        <node id="multiplyMatricies_3" kind="vertex">
-            <data key="name">multiplyMatricies_3</data>
-            <data key="kind">dag_vertex</data>
-            <data key="time">0</data>
-            <data key="nb_repeat">1</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="availableOperators">[Core3, Core4, Core7, Core2, Core0, Core5, Core1, Core6]</data>
-            <data key="originalId">245fabb9-361b-4172-ae2c-7110657d667d</data>
-            <data key="duration">-1</data>
-            <data key="schedulingOrder">41</data>
-            <data key="Operator">Core2</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="graph_desc"/>
-            <data key="arguments"/>
-        </node>
-        <node id="multiplyMatricies_4" kind="vertex">
-            <data key="name">multiplyMatricies_4</data>
-            <data key="kind">dag_vertex</data>
-            <data key="time">0</data>
-            <data key="nb_repeat">1</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="availableOperators">[Core3, Core4, Core7, Core2, Core0, Core5, Core1, Core6]</data>
-            <data key="originalId">9dd54232-db2b-4e9c-a83b-310a83daf5b7</data>
-            <data key="duration">-1</data>
-            <data key="schedulingOrder">44</data>
-            <data key="Operator">Core7</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="graph_desc"/>
-            <data key="arguments"/>
-        </node>
-        <node id="multiplyMatricies_5" kind="vertex">
-            <data key="name">multiplyMatricies_5</data>
-            <data key="kind">dag_vertex</data>
-            <data key="time">0</data>
-            <data key="nb_repeat">1</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="availableOperators">[Core3, Core4, Core7, Core2, Core0, Core5, Core1, Core6]</data>
-            <data key="originalId">461d6c1d-5050-4c97-934f-5074936c406f</data>
-            <data key="duration">-1</data>
-            <data key="schedulingOrder">47</data>
-            <data key="Operator">Core0</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="graph_desc"/>
-            <data key="arguments"/>
-        </node>
-        <node id="multiplyMatricies_6" kind="vertex">
-            <data key="name">multiplyMatricies_6</data>
-            <data key="kind">dag_vertex</data>
-            <data key="time">0</data>
-            <data key="nb_repeat">1</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="availableOperators">[Core3, Core4, Core7, Core2, Core0, Core5, Core1, Core6]</data>
-            <data key="originalId">dfa0959d-9dc0-4af5-b3f8-77b4c1eb32aa</data>
-            <data key="duration">-1</data>
-            <data key="schedulingOrder">48</data>
+            <data key="schedulingOrder">36</data>
             <data key="Operator">Core3</data>
             <data key="OperatorDef">c6678</data>
             <data key="OperatorDef">c6678</data>
             <data key="graph_desc"/>
             <data key="arguments"/>
         </node>
-        <node id="multiplyMatricies_7" kind="vertex">
-            <data key="name">multiplyMatricies_7</data>
+        <node id="multiplyMatrices_1" kind="vertex">
+            <data key="name">multiplyMatrices_1</data>
             <data key="kind">dag_vertex</data>
             <data key="time">0</data>
             <data key="nb_repeat">1</data>
             <data key="OperatorDef">c6678</data>
-            <data key="availableOperators">[Core3, Core4, Core7, Core2, Core0, Core5, Core1, Core6]</data>
-            <data key="originalId">aeb7a8d9-f7db-428e-b949-7b7663a8707a</data>
+            <data key="availableOperators">[Core6, Core0, Core3, Core4, Core7, Core1, Core2, Core5]</data>
+            <data key="originalId">970a8164-4db8-493e-9bec-7831108e6608</data>
             <data key="duration">-1</data>
-            <data key="schedulingOrder">51</data>
+            <data key="schedulingOrder">39</data>
             <data key="Operator">Core5</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="multiplyMatrices_2" kind="vertex">
+            <data key="name">multiplyMatrices_2</data>
+            <data key="kind">dag_vertex</data>
+            <data key="time">0</data>
+            <data key="nb_repeat">1</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="availableOperators">[Core6, Core0, Core3, Core4, Core7, Core1, Core2, Core5]</data>
+            <data key="originalId">7c171920-5103-4158-bf69-2b09f470ed68</data>
+            <data key="duration">-1</data>
+            <data key="schedulingOrder">42</data>
+            <data key="Operator">Core4</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="multiplyMatrices_3" kind="vertex">
+            <data key="name">multiplyMatrices_3</data>
+            <data key="kind">dag_vertex</data>
+            <data key="time">0</data>
+            <data key="nb_repeat">1</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="availableOperators">[Core6, Core0, Core3, Core4, Core7, Core1, Core2, Core5]</data>
+            <data key="originalId">d95cd14d-998b-42f6-afd1-f33c4758a71a</data>
+            <data key="duration">-1</data>
+            <data key="schedulingOrder">45</data>
+            <data key="Operator">Core0</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="multiplyMatrices_4" kind="vertex">
+            <data key="name">multiplyMatrices_4</data>
+            <data key="kind">dag_vertex</data>
+            <data key="time">0</data>
+            <data key="nb_repeat">1</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="availableOperators">[Core6, Core0, Core3, Core4, Core7, Core1, Core2, Core5]</data>
+            <data key="originalId">67c71370-55fd-4fc0-a89a-af49ee6ea464</data>
+            <data key="duration">-1</data>
+            <data key="schedulingOrder">48</data>
+            <data key="Operator">Core7</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="multiplyMatrices_5" kind="vertex">
+            <data key="name">multiplyMatrices_5</data>
+            <data key="kind">dag_vertex</data>
+            <data key="time">0</data>
+            <data key="nb_repeat">1</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="availableOperators">[Core6, Core0, Core3, Core4, Core7, Core1, Core2, Core5]</data>
+            <data key="originalId">9bd61a4f-24d0-4579-ad8c-c3bcbf4fde87</data>
+            <data key="duration">-1</data>
+            <data key="schedulingOrder">49</data>
+            <data key="Operator">Core2</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="multiplyMatrices_6" kind="vertex">
+            <data key="name">multiplyMatrices_6</data>
+            <data key="kind">dag_vertex</data>
+            <data key="time">0</data>
+            <data key="nb_repeat">1</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="availableOperators">[Core6, Core0, Core3, Core4, Core7, Core1, Core2, Core5]</data>
+            <data key="originalId">a0d9cc2a-5952-492b-8744-14b96611ea72</data>
+            <data key="duration">-1</data>
+            <data key="schedulingOrder">52</data>
+            <data key="Operator">Core1</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="multiplyMatrices_7" kind="vertex">
+            <data key="name">multiplyMatrices_7</data>
+            <data key="kind">dag_vertex</data>
+            <data key="time">0</data>
+            <data key="nb_repeat">1</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="availableOperators">[Core6, Core0, Core3, Core4, Core7, Core1, Core2, Core5]</data>
+            <data key="originalId">193c2bf2-20e5-4bac-b522-558ca324e691</data>
+            <data key="duration">-1</data>
+            <data key="schedulingOrder">55</data>
+            <data key="Operator">Core6</data>
             <data key="OperatorDef">c6678</data>
             <data key="OperatorDef">c6678</data>
             <data key="graph_desc"/>
@@ -187,11 +183,11 @@
             <data key="time">0</data>
             <data key="nb_repeat">1</data>
             <data key="OperatorDef">c6678</data>
-            <data key="availableOperators">[Core0]</data>
-            <data key="originalId">948cd2f2-87e4-43c6-9f03-e3f835295c3a</data>
+            <data key="availableOperators">[Core6, Core0, Core3, Core4, Core7, Core1, Core2, Core5]</data>
+            <data key="originalId">444ee891-c6fc-4f3d-b0aa-b644efbc6d41</data>
             <data key="duration">-1</data>
-            <data key="schedulingOrder">56</data>
-            <data key="Operator">Core0</data>
+            <data key="schedulingOrder">60</data>
+            <data key="Operator">Core7</data>
             <data key="OperatorDef">c6678</data>
             <data key="OperatorDef">c6678</data>
             <data key="graph_desc"/>
@@ -203,10 +199,10 @@
             <data key="time">0</data>
             <data key="nb_repeat">1</data>
             <data key="OperatorDef">c6678</data>
-            <data key="availableOperators">[Core0]</data>
-            <data key="originalId">2ba807b6-f82b-4a9d-8e25-2655529b485d</data>
+            <data key="availableOperators">[Core6, Core0, Core3, Core4, Core7, Core1, Core2, Core5]</data>
+            <data key="originalId">8b200a84-3ca6-42cb-91bc-80ca9beea0b1</data>
             <data key="duration">-1</data>
-            <data key="schedulingOrder">16</data>
+            <data key="schedulingOrder">20</data>
             <data key="Operator">Core0</data>
             <data key="OperatorDef">c6678</data>
             <data key="OperatorDef">c6678</data>
@@ -219,27 +215,27 @@
             <data key="time">0</data>
             <data key="nb_repeat">1</data>
             <data key="OperatorDef">c6678</data>
-            <data key="availableOperators">[Core0]</data>
-            <data key="originalId">d2c68c2b-07b5-45ca-b6bb-2dbc95293055</data>
+            <data key="availableOperators">[Core6, Core0, Core3, Core4, Core7, Core1, Core2, Core5]</data>
+            <data key="originalId">0c4a1931-765e-498d-8e91-872b00e3add8</data>
             <data key="duration">-1</data>
-            <data key="schedulingOrder">55</data>
-            <data key="Operator">Core0</data>
+            <data key="schedulingOrder">59</data>
+            <data key="Operator">Core7</data>
             <data key="OperatorDef">c6678</data>
             <data key="OperatorDef">c6678</data>
             <data key="graph_desc"/>
             <data key="arguments"/>
         </node>
-        <node id="explode_generateMatricies_arrayB" kind="fork">
-            <data key="name">explode_generateMatricies_arrayB</data>
+        <node id="explode_generateMatrices_arrayB" kind="fork">
+            <data key="name">explode_generateMatrices_arrayB</data>
             <data key="kind">dag_fork_vertex</data>
             <data key="time">0</data>
             <data key="nb_repeat">1</data>
             <data key="OperatorDef">c6678</data>
-            <data key="availableOperators">[Core0]</data>
-            <data key="originalId">849d0b67-ace2-42b1-90a6-5d17698b5c76</data>
+            <data key="availableOperators">[Core7, Core4, Core3, Core6, Core5, Core0, Core2, Core1]</data>
+            <data key="originalId">28d7de11-9e06-4ac1-800d-5feee5540ff0</data>
             <data key="duration">-1</data>
-            <data key="schedulingOrder">1</data>
-            <data key="Operator">Core0</data>
+            <data key="schedulingOrder">5</data>
+            <data key="Operator">Core6</data>
             <data key="OperatorDef">c6678</data>
             <data key="OperatorDef">c6678</data>
             <data key="graph_desc"/>
@@ -251,10 +247,10 @@
             <data key="time">0</data>
             <data key="nb_repeat">1</data>
             <data key="OperatorDef">c6678</data>
-            <data key="availableOperators">[Core0]</data>
-            <data key="originalId">8e18dc08-0c86-4b4f-9c7b-ce8f6d099edc</data>
+            <data key="availableOperators">[Core7, Core4, Core3, Core6, Core5, Core0, Core2, Core1]</data>
+            <data key="originalId">428259d6-5748-4bca-9a93-98f923f04bbb</data>
             <data key="duration">-1</data>
-            <data key="schedulingOrder">17</data>
+            <data key="schedulingOrder">21</data>
             <data key="Operator">Core0</data>
             <data key="OperatorDef">c6678</data>
             <data key="OperatorDef">c6678</data>
@@ -267,179 +263,284 @@
             <data key="time">0</data>
             <data key="nb_repeat">1</data>
             <data key="OperatorDef">c6678</data>
-            <data key="availableOperators">[Core0]</data>
-            <data key="originalId">ea49ddb4-dd3d-4bc4-8639-3d6e6337e78c</data>
+            <data key="availableOperators">[Core7, Core4, Core3, Core6, Core5, Core0, Core2, Core1]</data>
+            <data key="originalId">d999b1b3-6ae1-40e9-a8bc-07abedb299f8</data>
             <data key="duration">-1</data>
-            <data key="schedulingOrder">54</data>
-            <data key="Operator">Core0</data>
+            <data key="schedulingOrder">58</data>
+            <data key="Operator">Core7</data>
             <data key="OperatorDef">c6678</data>
             <data key="OperatorDef">c6678</data>
             <data key="graph_desc"/>
             <data key="arguments"/>
         </node>
-        <node
-            id="s_explode_generateMatricies_arrayBmultiplyMatricies_0_0" kind="vertex">
-            <data key="name">s_explode_generateMatricies_arrayBmultiplyMatricies_0_0</data>
+        <node id="s_generateMatricesdisplayMatrix_0" kind="vertex">
+            <data key="name">s_generateMatricesdisplayMatrix_0</data>
             <data key="OperatorDef">c6678</data>
             <data key="availableOperators">[]</data>
-            <data key="originalId">f98eec9b-c3c3-4483-80be-d58862f758a5</data>
+            <data key="originalId">097633e3-ef15-4425-8768-b9db99ecccb4</data>
             <data key="duration">100</data>
-            <data key="schedulingOrder">14</data>
-            <data key="Operator">Core0</data>
+            <data key="schedulingOrder">3</data>
+            <data key="Operator">Core6</data>
             <data key="OperatorDef">c6678</data>
-            <data key="dataSize">8388608</data>
+            <data key="dataSize">8</data>
             <data key="OperatorDef">c6678</data>
             <data key="graph_desc"/>
             <data key="arguments"/>
         </node>
-        <node
-            id="r_explode_generateMatricies_arrayBmultiplyMatricies_0_0" kind="vertex">
-            <data key="name">r_explode_generateMatricies_arrayBmultiplyMatricies_0_0</data>
+        <node id="r_generateMatricesdisplayMatrix_0" kind="vertex">
+            <data key="name">r_generateMatricesdisplayMatrix_0</data>
             <data key="OperatorDef">c6678</data>
             <data key="availableOperators">[]</data>
-            <data key="originalId">6aea83ba-b2a2-4f66-a1e7-5cc4fa321400</data>
+            <data key="originalId">232a9c61-6ebf-41c8-b986-7d5fa876803f</data>
             <data key="duration">100</data>
-            <data key="schedulingOrder">15</data>
+            <data key="schedulingOrder">4</data>
+            <data key="Operator">Core7</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="dataSize">8</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="receiverGraphName">displayMatrix</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="s_generateMatricestransposeMatrix_0" kind="vertex">
+            <data key="name">s_generateMatricestransposeMatrix_0</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="availableOperators">[]</data>
+            <data key="originalId">c9f3e0d1-0cbf-45f4-8514-42320f61b823</data>
+            <data key="duration">100</data>
+            <data key="schedulingOrder">1</data>
+            <data key="Operator">Core6</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="dataSize">67108864</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="r_generateMatricestransposeMatrix_0" kind="vertex">
+            <data key="name">r_generateMatricestransposeMatrix_0</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="availableOperators">[]</data>
+            <data key="originalId">1e54cc06-cc9b-408e-a7be-c5b95aa099dc</data>
+            <data key="duration">100</data>
+            <data key="schedulingOrder">2</data>
+            <data key="Operator">Core0</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="dataSize">67108864</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="receiverGraphName">transposeMatrix</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="s_explode_generateMatrices_arrayBmultiplyMatrices_0_0" kind="vertex">
+            <data key="name">s_explode_generateMatrices_arrayBmultiplyMatrices_0_0</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="availableOperators">[]</data>
+            <data key="originalId">9bf36c7d-c1aa-4f7d-b561-d7e9152e183a</data>
+            <data key="duration">100</data>
+            <data key="schedulingOrder">18</data>
             <data key="Operator">Core6</data>
             <data key="OperatorDef">c6678</data>
             <data key="dataSize">8388608</data>
             <data key="OperatorDef">c6678</data>
-            <data key="receiverGraphName">multiplyMatricies_0</data>
             <data key="graph_desc"/>
             <data key="arguments"/>
         </node>
-        <node
-            id="s_explode_generateMatricies_arrayBmultiplyMatricies_1_0" kind="vertex">
-            <data key="name">s_explode_generateMatricies_arrayBmultiplyMatricies_1_0</data>
+        <node id="r_explode_generateMatrices_arrayBmultiplyMatrices_0_0" kind="vertex">
+            <data key="name">r_explode_generateMatrices_arrayBmultiplyMatrices_0_0</data>
             <data key="OperatorDef">c6678</data>
             <data key="availableOperators">[]</data>
-            <data key="originalId">52c239f4-9c67-4585-83ff-5fba4aba304d</data>
+            <data key="originalId">f81a0e17-a7e0-45bf-857f-17aedcf5b505</data>
             <data key="duration">100</data>
-            <data key="schedulingOrder">12</data>
-            <data key="Operator">Core0</data>
+            <data key="schedulingOrder">19</data>
+            <data key="Operator">Core3</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="dataSize">8388608</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="receiverGraphName">multiplyMatrices_0</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="s_explode_generateMatrices_arrayBmultiplyMatrices_1_0" kind="vertex">
+            <data key="name">s_explode_generateMatrices_arrayBmultiplyMatrices_1_0</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="availableOperators">[]</data>
+            <data key="originalId">1904a89e-aa9c-41a0-9f07-6d6d57dc71f1</data>
+            <data key="duration">100</data>
+            <data key="schedulingOrder">16</data>
+            <data key="Operator">Core6</data>
             <data key="OperatorDef">c6678</data>
             <data key="dataSize">8388608</data>
             <data key="OperatorDef">c6678</data>
             <data key="graph_desc"/>
             <data key="arguments"/>
         </node>
-        <node
-            id="r_explode_generateMatricies_arrayBmultiplyMatricies_1_0" kind="vertex">
-            <data key="name">r_explode_generateMatricies_arrayBmultiplyMatricies_1_0</data>
+        <node id="r_explode_generateMatrices_arrayBmultiplyMatrices_1_0" kind="vertex">
+            <data key="name">r_explode_generateMatrices_arrayBmultiplyMatrices_1_0</data>
             <data key="OperatorDef">c6678</data>
             <data key="availableOperators">[]</data>
-            <data key="originalId">3d6b33fb-bf63-4ae2-8e74-9c4388054073</data>
+            <data key="originalId">df375125-aafa-488d-bf04-c6d0ae5caa2d</data>
             <data key="duration">100</data>
-            <data key="schedulingOrder">13</data>
+            <data key="schedulingOrder">17</data>
+            <data key="Operator">Core5</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="dataSize">8388608</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="receiverGraphName">multiplyMatrices_1</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="s_explode_generateMatrices_arrayBmultiplyMatrices_2_0" kind="vertex">
+            <data key="name">s_explode_generateMatrices_arrayBmultiplyMatrices_2_0</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="availableOperators">[]</data>
+            <data key="originalId">d71a6814-16f6-4757-a03f-c64cba601c0b</data>
+            <data key="duration">100</data>
+            <data key="schedulingOrder">14</data>
+            <data key="Operator">Core6</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="dataSize">8388608</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="r_explode_generateMatrices_arrayBmultiplyMatrices_2_0" kind="vertex">
+            <data key="name">r_explode_generateMatrices_arrayBmultiplyMatrices_2_0</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="availableOperators">[]</data>
+            <data key="originalId">31b72f24-788b-4b4e-9b4c-73f6e7056d23</data>
+            <data key="duration">100</data>
+            <data key="schedulingOrder">15</data>
             <data key="Operator">Core4</data>
             <data key="OperatorDef">c6678</data>
             <data key="dataSize">8388608</data>
             <data key="OperatorDef">c6678</data>
-            <data key="receiverGraphName">multiplyMatricies_1</data>
+            <data key="receiverGraphName">multiplyMatrices_2</data>
             <data key="graph_desc"/>
             <data key="arguments"/>
         </node>
-        <node
-            id="s_explode_generateMatricies_arrayBmultiplyMatricies_2_0" kind="vertex">
-            <data key="name">s_explode_generateMatricies_arrayBmultiplyMatricies_2_0</data>
+        <node id="s_explode_generateMatrices_arrayBmultiplyMatrices_3_0" kind="vertex">
+            <data key="name">s_explode_generateMatrices_arrayBmultiplyMatrices_3_0</data>
             <data key="OperatorDef">c6678</data>
             <data key="availableOperators">[]</data>
-            <data key="originalId">162f053b-6a82-4e88-b1f3-bd0fb89c14f4</data>
+            <data key="originalId">f8dc0bf9-d979-4fa8-a370-4f5314fc30d8</data>
+            <data key="duration">100</data>
+            <data key="schedulingOrder">12</data>
+            <data key="Operator">Core6</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="dataSize">8388608</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="r_explode_generateMatrices_arrayBmultiplyMatrices_3_0" kind="vertex">
+            <data key="name">r_explode_generateMatrices_arrayBmultiplyMatrices_3_0</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="availableOperators">[]</data>
+            <data key="originalId">279c3cfe-3cb1-4c12-89be-d6ea0cb67b93</data>
+            <data key="duration">100</data>
+            <data key="schedulingOrder">13</data>
+            <data key="Operator">Core0</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="dataSize">8388608</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="receiverGraphName">multiplyMatrices_3</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="s_explode_generateMatrices_arrayBmultiplyMatrices_4_0" kind="vertex">
+            <data key="name">s_explode_generateMatrices_arrayBmultiplyMatrices_4_0</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="availableOperators">[]</data>
+            <data key="originalId">4468102b-2ae2-44f4-8230-ea58a7688887</data>
             <data key="duration">100</data>
             <data key="schedulingOrder">10</data>
-            <data key="Operator">Core0</data>
+            <data key="Operator">Core6</data>
             <data key="OperatorDef">c6678</data>
             <data key="dataSize">8388608</data>
             <data key="OperatorDef">c6678</data>
             <data key="graph_desc"/>
             <data key="arguments"/>
         </node>
-        <node
-            id="r_explode_generateMatricies_arrayBmultiplyMatricies_2_0" kind="vertex">
-            <data key="name">r_explode_generateMatricies_arrayBmultiplyMatricies_2_0</data>
+        <node id="r_explode_generateMatrices_arrayBmultiplyMatrices_4_0" kind="vertex">
+            <data key="name">r_explode_generateMatrices_arrayBmultiplyMatrices_4_0</data>
             <data key="OperatorDef">c6678</data>
             <data key="availableOperators">[]</data>
-            <data key="originalId">60c018f3-67ec-4bec-bcfd-e53e102dd450</data>
+            <data key="originalId">9bfeb405-7667-4d3e-bbe6-2e565a9d26e4</data>
             <data key="duration">100</data>
             <data key="schedulingOrder">11</data>
-            <data key="Operator">Core1</data>
+            <data key="Operator">Core7</data>
             <data key="OperatorDef">c6678</data>
             <data key="dataSize">8388608</data>
             <data key="OperatorDef">c6678</data>
-            <data key="receiverGraphName">multiplyMatricies_2</data>
+            <data key="receiverGraphName">multiplyMatrices_4</data>
             <data key="graph_desc"/>
             <data key="arguments"/>
         </node>
-        <node
-            id="s_explode_generateMatricies_arrayBmultiplyMatricies_3_0" kind="vertex">
-            <data key="name">s_explode_generateMatricies_arrayBmultiplyMatricies_3_0</data>
+        <node id="s_explode_generateMatrices_arrayBmultiplyMatrices_5_0" kind="vertex">
+            <data key="name">s_explode_generateMatrices_arrayBmultiplyMatrices_5_0</data>
             <data key="OperatorDef">c6678</data>
             <data key="availableOperators">[]</data>
-            <data key="originalId">9676e78c-58ce-4af3-9a64-0d6cfabed91c</data>
+            <data key="originalId">f91aa570-64ef-4f09-aaf0-357f6a727aba</data>
             <data key="duration">100</data>
             <data key="schedulingOrder">8</data>
-            <data key="Operator">Core0</data>
+            <data key="Operator">Core6</data>
             <data key="OperatorDef">c6678</data>
             <data key="dataSize">8388608</data>
             <data key="OperatorDef">c6678</data>
             <data key="graph_desc"/>
             <data key="arguments"/>
         </node>
-        <node
-            id="r_explode_generateMatricies_arrayBmultiplyMatricies_3_0" kind="vertex">
-            <data key="name">r_explode_generateMatricies_arrayBmultiplyMatricies_3_0</data>
+        <node id="r_explode_generateMatrices_arrayBmultiplyMatrices_5_0" kind="vertex">
+            <data key="name">r_explode_generateMatrices_arrayBmultiplyMatrices_5_0</data>
             <data key="OperatorDef">c6678</data>
             <data key="availableOperators">[]</data>
-            <data key="originalId">1ba5ae0f-5aba-447b-aa48-adb4a5226682</data>
+            <data key="originalId">64bbb86a-7fec-4fb5-baf5-58668fea0c51</data>
             <data key="duration">100</data>
             <data key="schedulingOrder">9</data>
             <data key="Operator">Core2</data>
             <data key="OperatorDef">c6678</data>
             <data key="dataSize">8388608</data>
             <data key="OperatorDef">c6678</data>
-            <data key="receiverGraphName">multiplyMatricies_3</data>
+            <data key="receiverGraphName">multiplyMatrices_5</data>
             <data key="graph_desc"/>
             <data key="arguments"/>
         </node>
-        <node
-            id="s_explode_generateMatricies_arrayBmultiplyMatricies_4_0" kind="vertex">
-            <data key="name">s_explode_generateMatricies_arrayBmultiplyMatricies_4_0</data>
+        <node id="s_explode_generateMatrices_arrayBmultiplyMatrices_6_0" kind="vertex">
+            <data key="name">s_explode_generateMatrices_arrayBmultiplyMatrices_6_0</data>
             <data key="OperatorDef">c6678</data>
             <data key="availableOperators">[]</data>
-            <data key="originalId">de860618-1767-4c9a-a0e9-38c877197ad2</data>
+            <data key="originalId">f904631b-614d-4082-a059-4de159ff84bd</data>
             <data key="duration">100</data>
             <data key="schedulingOrder">6</data>
-            <data key="Operator">Core0</data>
+            <data key="Operator">Core6</data>
             <data key="OperatorDef">c6678</data>
             <data key="dataSize">8388608</data>
             <data key="OperatorDef">c6678</data>
             <data key="graph_desc"/>
             <data key="arguments"/>
         </node>
-        <node
-            id="r_explode_generateMatricies_arrayBmultiplyMatricies_4_0" kind="vertex">
-            <data key="name">r_explode_generateMatricies_arrayBmultiplyMatricies_4_0</data>
+        <node id="r_explode_generateMatrices_arrayBmultiplyMatrices_6_0" kind="vertex">
+            <data key="name">r_explode_generateMatrices_arrayBmultiplyMatrices_6_0</data>
             <data key="OperatorDef">c6678</data>
             <data key="availableOperators">[]</data>
-            <data key="originalId">9a685f15-6866-4c20-883b-2b6828b4f7e6</data>
+            <data key="originalId">74646acf-df38-49ba-9654-f8867e4d642f</data>
             <data key="duration">100</data>
             <data key="schedulingOrder">7</data>
-            <data key="Operator">Core7</data>
+            <data key="Operator">Core1</data>
             <data key="OperatorDef">c6678</data>
             <data key="dataSize">8388608</data>
             <data key="OperatorDef">c6678</data>
-            <data key="receiverGraphName">multiplyMatricies_4</data>
+            <data key="receiverGraphName">multiplyMatrices_6</data>
             <data key="graph_desc"/>
             <data key="arguments"/>
         </node>
-        <node
-            id="s_explode_generateMatricies_arrayBmultiplyMatricies_6_0" kind="vertex">
-            <data key="name">s_explode_generateMatricies_arrayBmultiplyMatricies_6_0</data>
+        <node id="s_explode_transposeMatrix_outputmultiplyMatrices_0_0" kind="vertex">
+            <data key="name">s_explode_transposeMatrix_outputmultiplyMatrices_0_0</data>
             <data key="OperatorDef">c6678</data>
             <data key="availableOperators">[]</data>
-            <data key="originalId">74090969-e05b-4fbd-abf8-a92b9bb78128</data>
+            <data key="originalId">f629ca54-485a-4c29-ae5b-986b19c61e23</data>
             <data key="duration">100</data>
-            <data key="schedulingOrder">4</data>
+            <data key="schedulingOrder">34</data>
             <data key="Operator">Core0</data>
             <data key="OperatorDef">c6678</data>
             <data key="dataSize">8388608</data>
@@ -447,30 +548,28 @@
             <data key="graph_desc"/>
             <data key="arguments"/>
         </node>
-        <node
-            id="r_explode_generateMatricies_arrayBmultiplyMatricies_6_0" kind="vertex">
-            <data key="name">r_explode_generateMatricies_arrayBmultiplyMatricies_6_0</data>
+        <node id="r_explode_transposeMatrix_outputmultiplyMatrices_0_0" kind="vertex">
+            <data key="name">r_explode_transposeMatrix_outputmultiplyMatrices_0_0</data>
             <data key="OperatorDef">c6678</data>
             <data key="availableOperators">[]</data>
-            <data key="originalId">690e1a84-6eaa-46bc-a875-bee530fe953c</data>
+            <data key="originalId">5ef77e84-c002-4ef7-976a-85d9dc04871b</data>
             <data key="duration">100</data>
-            <data key="schedulingOrder">5</data>
+            <data key="schedulingOrder">35</data>
             <data key="Operator">Core3</data>
             <data key="OperatorDef">c6678</data>
             <data key="dataSize">8388608</data>
             <data key="OperatorDef">c6678</data>
-            <data key="receiverGraphName">multiplyMatricies_6</data>
+            <data key="receiverGraphName">multiplyMatrices_0</data>
             <data key="graph_desc"/>
             <data key="arguments"/>
         </node>
-        <node
-            id="s_explode_generateMatricies_arrayBmultiplyMatricies_7_0" kind="vertex">
-            <data key="name">s_explode_generateMatricies_arrayBmultiplyMatricies_7_0</data>
+        <node id="s_explode_transposeMatrix_outputmultiplyMatrices_1_0" kind="vertex">
+            <data key="name">s_explode_transposeMatrix_outputmultiplyMatrices_1_0</data>
             <data key="OperatorDef">c6678</data>
             <data key="availableOperators">[]</data>
-            <data key="originalId">ec4cd210-0aa4-484c-afa7-3e15aa74b2ce</data>
+            <data key="originalId">f7b2cca0-1c1f-49f6-aea1-2aa5343f7ada</data>
             <data key="duration">100</data>
-            <data key="schedulingOrder">2</data>
+            <data key="schedulingOrder">32</data>
             <data key="Operator">Core0</data>
             <data key="OperatorDef">c6678</data>
             <data key="dataSize">8388608</data>
@@ -478,27 +577,26 @@
             <data key="graph_desc"/>
             <data key="arguments"/>
         </node>
-        <node
-            id="r_explode_generateMatricies_arrayBmultiplyMatricies_7_0" kind="vertex">
-            <data key="name">r_explode_generateMatricies_arrayBmultiplyMatricies_7_0</data>
+        <node id="r_explode_transposeMatrix_outputmultiplyMatrices_1_0" kind="vertex">
+            <data key="name">r_explode_transposeMatrix_outputmultiplyMatrices_1_0</data>
             <data key="OperatorDef">c6678</data>
             <data key="availableOperators">[]</data>
-            <data key="originalId">c4cc4c85-c45b-4d50-adb8-3c08389d85c8</data>
+            <data key="originalId">1cd345b8-f6d7-4a1b-a98e-5b724b71cfb9</data>
             <data key="duration">100</data>
-            <data key="schedulingOrder">3</data>
+            <data key="schedulingOrder">33</data>
             <data key="Operator">Core5</data>
             <data key="OperatorDef">c6678</data>
             <data key="dataSize">8388608</data>
             <data key="OperatorDef">c6678</data>
-            <data key="receiverGraphName">multiplyMatricies_7</data>
+            <data key="receiverGraphName">multiplyMatrices_1</data>
             <data key="graph_desc"/>
             <data key="arguments"/>
         </node>
-        <node id="s_explode_transposeMatrix_outputmultiplyMatricies_0_0" kind="vertex">
-            <data key="name">s_explode_transposeMatrix_outputmultiplyMatricies_0_0</data>
+        <node id="s_explode_transposeMatrix_outputmultiplyMatrices_2_0" kind="vertex">
+            <data key="name">s_explode_transposeMatrix_outputmultiplyMatrices_2_0</data>
             <data key="OperatorDef">c6678</data>
             <data key="availableOperators">[]</data>
-            <data key="originalId">bae82a56-ca98-431e-b7db-b79e6646ac24</data>
+            <data key="originalId">e9bc09d8-705d-480e-aa73-31fe6515dc36</data>
             <data key="duration">100</data>
             <data key="schedulingOrder">30</data>
             <data key="Operator">Core0</data>
@@ -508,26 +606,26 @@
             <data key="graph_desc"/>
             <data key="arguments"/>
         </node>
-        <node id="r_explode_transposeMatrix_outputmultiplyMatricies_0_0" kind="vertex">
-            <data key="name">r_explode_transposeMatrix_outputmultiplyMatricies_0_0</data>
+        <node id="r_explode_transposeMatrix_outputmultiplyMatrices_2_0" kind="vertex">
+            <data key="name">r_explode_transposeMatrix_outputmultiplyMatrices_2_0</data>
             <data key="OperatorDef">c6678</data>
             <data key="availableOperators">[]</data>
-            <data key="originalId">8b823597-db34-446a-b677-76139beda4d2</data>
+            <data key="originalId">185b2820-6b3d-4a0f-bed0-86d6acfee770</data>
             <data key="duration">100</data>
             <data key="schedulingOrder">31</data>
-            <data key="Operator">Core6</data>
+            <data key="Operator">Core4</data>
             <data key="OperatorDef">c6678</data>
             <data key="dataSize">8388608</data>
             <data key="OperatorDef">c6678</data>
-            <data key="receiverGraphName">multiplyMatricies_0</data>
+            <data key="receiverGraphName">multiplyMatrices_2</data>
             <data key="graph_desc"/>
             <data key="arguments"/>
         </node>
-        <node id="s_explode_transposeMatrix_outputmultiplyMatricies_1_0" kind="vertex">
-            <data key="name">s_explode_transposeMatrix_outputmultiplyMatricies_1_0</data>
+        <node id="s_explode_transposeMatrix_outputmultiplyMatrices_4_0" kind="vertex">
+            <data key="name">s_explode_transposeMatrix_outputmultiplyMatrices_4_0</data>
             <data key="OperatorDef">c6678</data>
             <data key="availableOperators">[]</data>
-            <data key="originalId">e6edba17-4607-401e-bc79-2f4234d0fff6</data>
+            <data key="originalId">f5137521-5de9-4fb5-b65e-d3c351af9ee7</data>
             <data key="duration">100</data>
             <data key="schedulingOrder">28</data>
             <data key="Operator">Core0</data>
@@ -537,26 +635,26 @@
             <data key="graph_desc"/>
             <data key="arguments"/>
         </node>
-        <node id="r_explode_transposeMatrix_outputmultiplyMatricies_1_0" kind="vertex">
-            <data key="name">r_explode_transposeMatrix_outputmultiplyMatricies_1_0</data>
+        <node id="r_explode_transposeMatrix_outputmultiplyMatrices_4_0" kind="vertex">
+            <data key="name">r_explode_transposeMatrix_outputmultiplyMatrices_4_0</data>
             <data key="OperatorDef">c6678</data>
             <data key="availableOperators">[]</data>
-            <data key="originalId">d5e10406-2a3d-49f6-b0af-4db572b39731</data>
+            <data key="originalId">1b817233-641b-4dc1-a3de-835b93984900</data>
             <data key="duration">100</data>
             <data key="schedulingOrder">29</data>
-            <data key="Operator">Core4</data>
+            <data key="Operator">Core7</data>
             <data key="OperatorDef">c6678</data>
             <data key="dataSize">8388608</data>
             <data key="OperatorDef">c6678</data>
-            <data key="receiverGraphName">multiplyMatricies_1</data>
+            <data key="receiverGraphName">multiplyMatrices_4</data>
             <data key="graph_desc"/>
             <data key="arguments"/>
         </node>
-        <node id="s_explode_transposeMatrix_outputmultiplyMatricies_2_0" kind="vertex">
-            <data key="name">s_explode_transposeMatrix_outputmultiplyMatricies_2_0</data>
+        <node id="s_explode_transposeMatrix_outputmultiplyMatrices_5_0" kind="vertex">
+            <data key="name">s_explode_transposeMatrix_outputmultiplyMatrices_5_0</data>
             <data key="OperatorDef">c6678</data>
             <data key="availableOperators">[]</data>
-            <data key="originalId">bed183b5-3788-4f83-bf4b-1d80918b640f</data>
+            <data key="originalId">7d98b917-6501-493b-8339-659e9d10e252</data>
             <data key="duration">100</data>
             <data key="schedulingOrder">26</data>
             <data key="Operator">Core0</data>
@@ -566,26 +664,26 @@
             <data key="graph_desc"/>
             <data key="arguments"/>
         </node>
-        <node id="r_explode_transposeMatrix_outputmultiplyMatricies_2_0" kind="vertex">
-            <data key="name">r_explode_transposeMatrix_outputmultiplyMatricies_2_0</data>
+        <node id="r_explode_transposeMatrix_outputmultiplyMatrices_5_0" kind="vertex">
+            <data key="name">r_explode_transposeMatrix_outputmultiplyMatrices_5_0</data>
             <data key="OperatorDef">c6678</data>
             <data key="availableOperators">[]</data>
-            <data key="originalId">4c5d5a8f-9472-48c0-a8f4-04954239c0ff</data>
+            <data key="originalId">acc55603-fc35-415c-9d20-7f5e2ec0aa42</data>
             <data key="duration">100</data>
             <data key="schedulingOrder">27</data>
-            <data key="Operator">Core1</data>
+            <data key="Operator">Core2</data>
             <data key="OperatorDef">c6678</data>
             <data key="dataSize">8388608</data>
             <data key="OperatorDef">c6678</data>
-            <data key="receiverGraphName">multiplyMatricies_2</data>
+            <data key="receiverGraphName">multiplyMatrices_5</data>
             <data key="graph_desc"/>
             <data key="arguments"/>
         </node>
-        <node id="s_explode_transposeMatrix_outputmultiplyMatricies_3_0" kind="vertex">
-            <data key="name">s_explode_transposeMatrix_outputmultiplyMatricies_3_0</data>
+        <node id="s_explode_transposeMatrix_outputmultiplyMatrices_6_0" kind="vertex">
+            <data key="name">s_explode_transposeMatrix_outputmultiplyMatrices_6_0</data>
             <data key="OperatorDef">c6678</data>
             <data key="availableOperators">[]</data>
-            <data key="originalId">ea092d56-db59-46ab-9fe0-c8606edc15f6</data>
+            <data key="originalId">3cb4cd03-1e8f-4ac3-a338-f9dedaee7a03</data>
             <data key="duration">100</data>
             <data key="schedulingOrder">24</data>
             <data key="Operator">Core0</data>
@@ -595,26 +693,26 @@
             <data key="graph_desc"/>
             <data key="arguments"/>
         </node>
-        <node id="r_explode_transposeMatrix_outputmultiplyMatricies_3_0" kind="vertex">
-            <data key="name">r_explode_transposeMatrix_outputmultiplyMatricies_3_0</data>
+        <node id="r_explode_transposeMatrix_outputmultiplyMatrices_6_0" kind="vertex">
+            <data key="name">r_explode_transposeMatrix_outputmultiplyMatrices_6_0</data>
             <data key="OperatorDef">c6678</data>
             <data key="availableOperators">[]</data>
-            <data key="originalId">62448273-519e-4abd-ba2a-15bb580495fc</data>
+            <data key="originalId">7f4e6d8a-248c-4b09-8e9d-c080086bec9b</data>
             <data key="duration">100</data>
             <data key="schedulingOrder">25</data>
-            <data key="Operator">Core2</data>
+            <data key="Operator">Core1</data>
             <data key="OperatorDef">c6678</data>
             <data key="dataSize">8388608</data>
             <data key="OperatorDef">c6678</data>
-            <data key="receiverGraphName">multiplyMatricies_3</data>
+            <data key="receiverGraphName">multiplyMatrices_6</data>
             <data key="graph_desc"/>
             <data key="arguments"/>
         </node>
-        <node id="s_explode_transposeMatrix_outputmultiplyMatricies_4_0" kind="vertex">
-            <data key="name">s_explode_transposeMatrix_outputmultiplyMatricies_4_0</data>
+        <node id="s_explode_transposeMatrix_outputmultiplyMatrices_7_0" kind="vertex">
+            <data key="name">s_explode_transposeMatrix_outputmultiplyMatrices_7_0</data>
             <data key="OperatorDef">c6678</data>
             <data key="availableOperators">[]</data>
-            <data key="originalId">ca83a7fb-b109-46b0-9551-b69927494119</data>
+            <data key="originalId">a30160e5-bcb8-40df-9f93-7bc54ba0c4cf</data>
             <data key="duration">100</data>
             <data key="schedulingOrder">22</data>
             <data key="Operator">Core0</data>
@@ -624,101 +722,43 @@
             <data key="graph_desc"/>
             <data key="arguments"/>
         </node>
-        <node id="r_explode_transposeMatrix_outputmultiplyMatricies_4_0" kind="vertex">
-            <data key="name">r_explode_transposeMatrix_outputmultiplyMatricies_4_0</data>
+        <node id="r_explode_transposeMatrix_outputmultiplyMatrices_7_0" kind="vertex">
+            <data key="name">r_explode_transposeMatrix_outputmultiplyMatrices_7_0</data>
             <data key="OperatorDef">c6678</data>
             <data key="availableOperators">[]</data>
-            <data key="originalId">c2926075-4701-4bf5-bd7e-642b7a18115d</data>
+            <data key="originalId">e6ce70ba-284d-4e17-a77e-cfa9a634cf18</data>
             <data key="duration">100</data>
             <data key="schedulingOrder">23</data>
-            <data key="Operator">Core7</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="dataSize">8388608</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="receiverGraphName">multiplyMatricies_4</data>
-            <data key="graph_desc"/>
-            <data key="arguments"/>
-        </node>
-        <node id="s_explode_transposeMatrix_outputmultiplyMatricies_6_0" kind="vertex">
-            <data key="name">s_explode_transposeMatrix_outputmultiplyMatricies_6_0</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="availableOperators">[]</data>
-            <data key="originalId">635cb5a7-88da-4f86-99b9-f3a734e6fc97</data>
-            <data key="duration">100</data>
-            <data key="schedulingOrder">20</data>
-            <data key="Operator">Core0</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="dataSize">8388608</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="graph_desc"/>
-            <data key="arguments"/>
-        </node>
-        <node id="r_explode_transposeMatrix_outputmultiplyMatricies_6_0" kind="vertex">
-            <data key="name">r_explode_transposeMatrix_outputmultiplyMatricies_6_0</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="availableOperators">[]</data>
-            <data key="originalId">6cf67ee1-7af3-4084-ab7e-e74ac13f11b1</data>
-            <data key="duration">100</data>
-            <data key="schedulingOrder">21</data>
-            <data key="Operator">Core3</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="dataSize">8388608</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="receiverGraphName">multiplyMatricies_6</data>
-            <data key="graph_desc"/>
-            <data key="arguments"/>
-        </node>
-        <node id="s_explode_transposeMatrix_outputmultiplyMatricies_7_0" kind="vertex">
-            <data key="name">s_explode_transposeMatrix_outputmultiplyMatricies_7_0</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="availableOperators">[]</data>
-            <data key="originalId">97fb5b97-3973-45bf-90b4-cb155585eec1</data>
-            <data key="duration">100</data>
-            <data key="schedulingOrder">18</data>
-            <data key="Operator">Core0</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="dataSize">8388608</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="graph_desc"/>
-            <data key="arguments"/>
-        </node>
-        <node id="r_explode_transposeMatrix_outputmultiplyMatricies_7_0" kind="vertex">
-            <data key="name">r_explode_transposeMatrix_outputmultiplyMatricies_7_0</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="availableOperators">[]</data>
-            <data key="originalId">04a39337-71df-49ca-8452-cbad087d37d8</data>
-            <data key="duration">100</data>
-            <data key="schedulingOrder">19</data>
-            <data key="Operator">Core5</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="dataSize">8388608</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="receiverGraphName">multiplyMatricies_7</data>
-            <data key="graph_desc"/>
-            <data key="arguments"/>
-        </node>
-        <node id="s_multiplyMatricies_0implode_sumResults_input_0" kind="vertex">
-            <data key="name">s_multiplyMatricies_0implode_sumResults_input_0</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="availableOperators">[]</data>
-            <data key="originalId">243e8791-996a-4974-88e2-419b4e2a6270</data>
-            <data key="duration">100</data>
-            <data key="schedulingOrder">33</data>
             <data key="Operator">Core6</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="dataSize">8388608</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="receiverGraphName">multiplyMatrices_7</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="s_multiplyMatrices_0implode_sumResults_input_0" kind="vertex">
+            <data key="name">s_multiplyMatrices_0implode_sumResults_input_0</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="availableOperators">[]</data>
+            <data key="originalId">a62ce848-e266-42ce-9ff1-2737791bac80</data>
+            <data key="duration">100</data>
+            <data key="schedulingOrder">37</data>
+            <data key="Operator">Core3</data>
             <data key="OperatorDef">c6678</data>
             <data key="dataSize">67108864</data>
             <data key="OperatorDef">c6678</data>
             <data key="graph_desc"/>
             <data key="arguments"/>
         </node>
-        <node id="r_multiplyMatricies_0implode_sumResults_input_0" kind="vertex">
-            <data key="name">r_multiplyMatricies_0implode_sumResults_input_0</data>
+        <node id="r_multiplyMatrices_0implode_sumResults_input_0" kind="vertex">
+            <data key="name">r_multiplyMatrices_0implode_sumResults_input_0</data>
             <data key="OperatorDef">c6678</data>
             <data key="availableOperators">[]</data>
-            <data key="originalId">7fdf25cb-d875-40e9-b06e-547defd6fbc6</data>
+            <data key="originalId">15b6717e-c13b-4ee4-ac87-d06fabee84e9</data>
             <data key="duration">100</data>
-            <data key="schedulingOrder">34</data>
-            <data key="Operator">Core0</data>
+            <data key="schedulingOrder">38</data>
+            <data key="Operator">Core7</data>
             <data key="OperatorDef">c6678</data>
             <data key="dataSize">67108864</data>
             <data key="OperatorDef">c6678</data>
@@ -726,13 +766,42 @@
             <data key="graph_desc"/>
             <data key="arguments"/>
         </node>
-        <node id="s_multiplyMatricies_1implode_sumResults_input_0" kind="vertex">
-            <data key="name">s_multiplyMatricies_1implode_sumResults_input_0</data>
+        <node id="s_multiplyMatrices_1implode_sumResults_input_0" kind="vertex">
+            <data key="name">s_multiplyMatrices_1implode_sumResults_input_0</data>
             <data key="OperatorDef">c6678</data>
             <data key="availableOperators">[]</data>
-            <data key="originalId">4b283441-f4f7-4cc3-ae5d-6cbcb97d9aca</data>
+            <data key="originalId">4ae61327-552c-4e22-b45e-b70a86a0bdb1</data>
             <data key="duration">100</data>
-            <data key="schedulingOrder">36</data>
+            <data key="schedulingOrder">40</data>
+            <data key="Operator">Core5</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="dataSize">67108864</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="r_multiplyMatrices_1implode_sumResults_input_0" kind="vertex">
+            <data key="name">r_multiplyMatrices_1implode_sumResults_input_0</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="availableOperators">[]</data>
+            <data key="originalId">b2853389-c752-44e9-b8d5-c9d6528177c5</data>
+            <data key="duration">100</data>
+            <data key="schedulingOrder">41</data>
+            <data key="Operator">Core7</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="dataSize">67108864</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="receiverGraphName">implode_sumResults_input</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="s_multiplyMatrices_2implode_sumResults_input_0" kind="vertex">
+            <data key="name">s_multiplyMatrices_2implode_sumResults_input_0</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="availableOperators">[]</data>
+            <data key="originalId">4f76e5cf-fb00-42bc-98bc-d91a51cfdb29</data>
+            <data key="duration">100</data>
+            <data key="schedulingOrder">43</data>
             <data key="Operator">Core4</data>
             <data key="OperatorDef">c6678</data>
             <data key="dataSize">67108864</data>
@@ -740,14 +809,14 @@
             <data key="graph_desc"/>
             <data key="arguments"/>
         </node>
-        <node id="r_multiplyMatricies_1implode_sumResults_input_0" kind="vertex">
-            <data key="name">r_multiplyMatricies_1implode_sumResults_input_0</data>
+        <node id="r_multiplyMatrices_2implode_sumResults_input_0" kind="vertex">
+            <data key="name">r_multiplyMatrices_2implode_sumResults_input_0</data>
             <data key="OperatorDef">c6678</data>
             <data key="availableOperators">[]</data>
-            <data key="originalId">c67c79ba-57f3-4010-8a9c-c066f64c0bd2</data>
+            <data key="originalId">4523206e-e30a-42ca-b34c-726c852f1a5b</data>
             <data key="duration">100</data>
-            <data key="schedulingOrder">37</data>
-            <data key="Operator">Core0</data>
+            <data key="schedulingOrder">44</data>
+            <data key="Operator">Core7</data>
             <data key="OperatorDef">c6678</data>
             <data key="dataSize">67108864</data>
             <data key="OperatorDef">c6678</data>
@@ -755,28 +824,28 @@
             <data key="graph_desc"/>
             <data key="arguments"/>
         </node>
-        <node id="s_multiplyMatricies_2implode_sumResults_input_0" kind="vertex">
-            <data key="name">s_multiplyMatricies_2implode_sumResults_input_0</data>
+        <node id="s_multiplyMatrices_3implode_sumResults_input_0" kind="vertex">
+            <data key="name">s_multiplyMatrices_3implode_sumResults_input_0</data>
             <data key="OperatorDef">c6678</data>
             <data key="availableOperators">[]</data>
-            <data key="originalId">720e520c-8eec-4dce-bedc-7ef3401ed6c7</data>
+            <data key="originalId">098454e5-bee8-45ab-8e86-aaff04de01bc</data>
             <data key="duration">100</data>
-            <data key="schedulingOrder">39</data>
-            <data key="Operator">Core1</data>
+            <data key="schedulingOrder">46</data>
+            <data key="Operator">Core0</data>
             <data key="OperatorDef">c6678</data>
             <data key="dataSize">67108864</data>
             <data key="OperatorDef">c6678</data>
             <data key="graph_desc"/>
             <data key="arguments"/>
         </node>
-        <node id="r_multiplyMatricies_2implode_sumResults_input_0" kind="vertex">
-            <data key="name">r_multiplyMatricies_2implode_sumResults_input_0</data>
+        <node id="r_multiplyMatrices_3implode_sumResults_input_0" kind="vertex">
+            <data key="name">r_multiplyMatrices_3implode_sumResults_input_0</data>
             <data key="OperatorDef">c6678</data>
             <data key="availableOperators">[]</data>
-            <data key="originalId">77cf0eeb-cf19-461a-b3b4-983615dbac4c</data>
+            <data key="originalId">f8356b89-ee1e-4fa5-a4b0-1b4fc3f3e744</data>
             <data key="duration">100</data>
-            <data key="schedulingOrder">40</data>
-            <data key="Operator">Core0</data>
+            <data key="schedulingOrder">47</data>
+            <data key="Operator">Core7</data>
             <data key="OperatorDef">c6678</data>
             <data key="dataSize">67108864</data>
             <data key="OperatorDef">c6678</data>
@@ -784,13 +853,13 @@
             <data key="graph_desc"/>
             <data key="arguments"/>
         </node>
-        <node id="s_multiplyMatricies_3implode_sumResults_input_0" kind="vertex">
-            <data key="name">s_multiplyMatricies_3implode_sumResults_input_0</data>
+        <node id="s_multiplyMatrices_5implode_sumResults_input_0" kind="vertex">
+            <data key="name">s_multiplyMatrices_5implode_sumResults_input_0</data>
             <data key="OperatorDef">c6678</data>
             <data key="availableOperators">[]</data>
-            <data key="originalId">226a2df8-ec51-44cc-a024-ed844baf18e4</data>
+            <data key="originalId">8f8a24e4-eda0-4123-8f2d-30119af0218d</data>
             <data key="duration">100</data>
-            <data key="schedulingOrder">42</data>
+            <data key="schedulingOrder">50</data>
             <data key="Operator">Core2</data>
             <data key="OperatorDef">c6678</data>
             <data key="dataSize">67108864</data>
@@ -798,101 +867,43 @@
             <data key="graph_desc"/>
             <data key="arguments"/>
         </node>
-        <node id="r_multiplyMatricies_3implode_sumResults_input_0" kind="vertex">
-            <data key="name">r_multiplyMatricies_3implode_sumResults_input_0</data>
+        <node id="r_multiplyMatrices_5implode_sumResults_input_0" kind="vertex">
+            <data key="name">r_multiplyMatrices_5implode_sumResults_input_0</data>
             <data key="OperatorDef">c6678</data>
             <data key="availableOperators">[]</data>
-            <data key="originalId">9d492da2-ccd3-4309-9bad-b41d905f0016</data>
+            <data key="originalId">620bd90b-455c-4754-8b7b-83d607f21e43</data>
             <data key="duration">100</data>
-            <data key="schedulingOrder">43</data>
-            <data key="Operator">Core0</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="dataSize">67108864</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="receiverGraphName">implode_sumResults_input</data>
-            <data key="graph_desc"/>
-            <data key="arguments"/>
-        </node>
-        <node id="s_multiplyMatricies_4implode_sumResults_input_0" kind="vertex">
-            <data key="name">s_multiplyMatricies_4implode_sumResults_input_0</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="availableOperators">[]</data>
-            <data key="originalId">27c9c32b-5198-43b7-a72d-e671abda995f</data>
-            <data key="duration">100</data>
-            <data key="schedulingOrder">45</data>
+            <data key="schedulingOrder">51</data>
             <data key="Operator">Core7</data>
             <data key="OperatorDef">c6678</data>
             <data key="dataSize">67108864</data>
             <data key="OperatorDef">c6678</data>
-            <data key="graph_desc"/>
-            <data key="arguments"/>
-        </node>
-        <node id="r_multiplyMatricies_4implode_sumResults_input_0" kind="vertex">
-            <data key="name">r_multiplyMatricies_4implode_sumResults_input_0</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="availableOperators">[]</data>
-            <data key="originalId">2563a3dc-e376-45bd-9d84-16a0550f8386</data>
-            <data key="duration">100</data>
-            <data key="schedulingOrder">46</data>
-            <data key="Operator">Core0</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="dataSize">67108864</data>
-            <data key="OperatorDef">c6678</data>
             <data key="receiverGraphName">implode_sumResults_input</data>
             <data key="graph_desc"/>
             <data key="arguments"/>
         </node>
-        <node id="s_multiplyMatricies_6implode_sumResults_input_0" kind="vertex">
-            <data key="name">s_multiplyMatricies_6implode_sumResults_input_0</data>
+        <node id="s_multiplyMatrices_6implode_sumResults_input_0" kind="vertex">
+            <data key="name">s_multiplyMatrices_6implode_sumResults_input_0</data>
             <data key="OperatorDef">c6678</data>
             <data key="availableOperators">[]</data>
-            <data key="originalId">ac1c6831-c467-4eb2-a789-67b7de3f9f9f</data>
-            <data key="duration">100</data>
-            <data key="schedulingOrder">49</data>
-            <data key="Operator">Core3</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="dataSize">67108864</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="graph_desc"/>
-            <data key="arguments"/>
-        </node>
-        <node id="r_multiplyMatricies_6implode_sumResults_input_0" kind="vertex">
-            <data key="name">r_multiplyMatricies_6implode_sumResults_input_0</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="availableOperators">[]</data>
-            <data key="originalId">08a53447-d5ee-46f3-aa41-8ce706eb2a21</data>
-            <data key="duration">100</data>
-            <data key="schedulingOrder">50</data>
-            <data key="Operator">Core0</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="dataSize">67108864</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="receiverGraphName">implode_sumResults_input</data>
-            <data key="graph_desc"/>
-            <data key="arguments"/>
-        </node>
-        <node id="s_multiplyMatricies_7implode_sumResults_input_0" kind="vertex">
-            <data key="name">s_multiplyMatricies_7implode_sumResults_input_0</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="availableOperators">[]</data>
-            <data key="originalId">71c6c18f-173d-480f-9bc6-b4cb1fa9ce93</data>
-            <data key="duration">100</data>
-            <data key="schedulingOrder">52</data>
-            <data key="Operator">Core5</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="dataSize">67108864</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="graph_desc"/>
-            <data key="arguments"/>
-        </node>
-        <node id="r_multiplyMatricies_7implode_sumResults_input_0" kind="vertex">
-            <data key="name">r_multiplyMatricies_7implode_sumResults_input_0</data>
-            <data key="OperatorDef">c6678</data>
-            <data key="availableOperators">[]</data>
-            <data key="originalId">67432396-793a-48c1-b324-aad99bc9c72d</data>
+            <data key="originalId">067d3070-431b-435f-8f1b-28db65656326</data>
             <data key="duration">100</data>
             <data key="schedulingOrder">53</data>
-            <data key="Operator">Core0</data>
+            <data key="Operator">Core1</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="dataSize">67108864</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="r_multiplyMatrices_6implode_sumResults_input_0" kind="vertex">
+            <data key="name">r_multiplyMatrices_6implode_sumResults_input_0</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="availableOperators">[]</data>
+            <data key="originalId">623ac9aa-4ee6-480e-be93-bc6570002827</data>
+            <data key="duration">100</data>
+            <data key="schedulingOrder">54</data>
+            <data key="Operator">Core7</data>
             <data key="OperatorDef">c6678</data>
             <data key="dataSize">67108864</data>
             <data key="OperatorDef">c6678</data>
@@ -900,7 +911,36 @@
             <data key="graph_desc"/>
             <data key="arguments"/>
         </node>
-        <edge source="generateMatricies" sourceport="out0"
+        <node id="s_multiplyMatrices_7implode_sumResults_input_0" kind="vertex">
+            <data key="name">s_multiplyMatrices_7implode_sumResults_input_0</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="availableOperators">[]</data>
+            <data key="originalId">d0d14e23-65bc-45d7-a4ba-54aeba6ef5c0</data>
+            <data key="duration">100</data>
+            <data key="schedulingOrder">56</data>
+            <data key="Operator">Core6</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="dataSize">67108864</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <node id="r_multiplyMatrices_7implode_sumResults_input_0" kind="vertex">
+            <data key="name">r_multiplyMatrices_7implode_sumResults_input_0</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="availableOperators">[]</data>
+            <data key="originalId">d84b30b4-ad49-42c4-9662-8bcccd2368d6</data>
+            <data key="duration">100</data>
+            <data key="schedulingOrder">57</data>
+            <data key="Operator">Core7</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="dataSize">67108864</data>
+            <data key="OperatorDef">c6678</data>
+            <data key="receiverGraphName">implode_sumResults_input</data>
+            <data key="graph_desc"/>
+            <data key="arguments"/>
+        </node>
+        <edge source="generateMatrices" sourceport="out0"
             target="displayMatrix" targetport="in0">
             <data key="edge_cons"/>
             <data key="edge_delay"/>
@@ -914,7 +954,7 @@
             <data key="edge_cons">1</data>
             <data key="data_type">memUnit</data>
         </edge>
-        <edge source="generateMatricies" sourceport="out1"
+        <edge source="generateMatrices" sourceport="out1"
             target="transposeMatrix" targetport="in0">
             <data key="edge_cons"/>
             <data key="edge_delay"/>
@@ -928,8 +968,8 @@
             <data key="edge_cons">16777216</data>
             <data key="data_type">memUnit</data>
         </edge>
-        <edge source="generateMatricies" sourceport="out2"
-            target="explode_generateMatricies_arrayB" targetport="in0">
+        <edge source="generateMatrices" sourceport="out2"
+            target="explode_generateMatrices_arrayB" targetport="in0">
             <data key="edge_cons"/>
             <data key="edge_delay"/>
             <data key="edge_prod"/>
@@ -942,8 +982,8 @@
             <data key="edge_cons">16777216</data>
             <data key="data_type">memUnit</data>
         </edge>
-        <edge source="explode_generateMatricies_arrayB"
-            sourceport="out0" target="multiplyMatricies_0" targetport="in0">
+        <edge source="explode_generateMatrices_arrayB" sourceport="out0"
+            target="multiplyMatrices_0" targetport="in0">
             <data key="edge_cons"/>
             <data key="edge_delay"/>
             <data key="edge_prod"/>
@@ -956,8 +996,8 @@
             <data key="edge_cons">2097152</data>
             <data key="data_type">memUnit</data>
         </edge>
-        <edge source="explode_generateMatricies_arrayB"
-            sourceport="out1" target="multiplyMatricies_1" targetport="in0">
+        <edge source="explode_generateMatrices_arrayB" sourceport="out1"
+            target="multiplyMatrices_1" targetport="in0">
             <data key="edge_cons"/>
             <data key="edge_delay"/>
             <data key="edge_prod"/>
@@ -970,8 +1010,8 @@
             <data key="edge_cons">2097152</data>
             <data key="data_type">memUnit</data>
         </edge>
-        <edge source="explode_generateMatricies_arrayB"
-            sourceport="out2" target="multiplyMatricies_2" targetport="in0">
+        <edge source="explode_generateMatrices_arrayB" sourceport="out2"
+            target="multiplyMatrices_2" targetport="in0">
             <data key="edge_cons"/>
             <data key="edge_delay"/>
             <data key="edge_prod"/>
@@ -984,8 +1024,8 @@
             <data key="edge_cons">2097152</data>
             <data key="data_type">memUnit</data>
         </edge>
-        <edge source="explode_generateMatricies_arrayB"
-            sourceport="out3" target="multiplyMatricies_3" targetport="in0">
+        <edge source="explode_generateMatrices_arrayB" sourceport="out3"
+            target="multiplyMatrices_3" targetport="in0">
             <data key="edge_cons"/>
             <data key="edge_delay"/>
             <data key="edge_prod"/>
@@ -998,8 +1038,8 @@
             <data key="edge_cons">2097152</data>
             <data key="data_type">memUnit</data>
         </edge>
-        <edge source="explode_generateMatricies_arrayB"
-            sourceport="out4" target="multiplyMatricies_4" targetport="in0">
+        <edge source="explode_generateMatrices_arrayB" sourceport="out4"
+            target="multiplyMatrices_4" targetport="in0">
             <data key="edge_cons"/>
             <data key="edge_delay"/>
             <data key="edge_prod"/>
@@ -1012,8 +1052,8 @@
             <data key="edge_cons">2097152</data>
             <data key="data_type">memUnit</data>
         </edge>
-        <edge source="explode_generateMatricies_arrayB"
-            sourceport="out5" target="multiplyMatricies_5" targetport="in0">
+        <edge source="explode_generateMatrices_arrayB" sourceport="out5"
+            target="multiplyMatrices_5" targetport="in0">
             <data key="edge_cons"/>
             <data key="edge_delay"/>
             <data key="edge_prod"/>
@@ -1026,8 +1066,8 @@
             <data key="edge_cons">2097152</data>
             <data key="data_type">memUnit</data>
         </edge>
-        <edge source="explode_generateMatricies_arrayB"
-            sourceport="out6" target="multiplyMatricies_6" targetport="in0">
+        <edge source="explode_generateMatrices_arrayB" sourceport="out6"
+            target="multiplyMatrices_6" targetport="in0">
             <data key="edge_cons"/>
             <data key="edge_delay"/>
             <data key="edge_prod"/>
@@ -1040,8 +1080,8 @@
             <data key="edge_cons">2097152</data>
             <data key="data_type">memUnit</data>
         </edge>
-        <edge source="explode_generateMatricies_arrayB"
-            sourceport="out7" target="multiplyMatricies_7" targetport="in0">
+        <edge source="explode_generateMatrices_arrayB" sourceport="out7"
+            target="multiplyMatrices_7" targetport="in0">
             <data key="edge_cons"/>
             <data key="edge_delay"/>
             <data key="edge_prod"/>
@@ -1069,7 +1109,7 @@
             <data key="data_type">memUnit</data>
         </edge>
         <edge source="explode_transposeMatrix_output" sourceport="out0"
-            target="multiplyMatricies_0" targetport="in1">
+            target="multiplyMatrices_0" targetport="in1">
             <data key="edge_cons"/>
             <data key="edge_delay"/>
             <data key="edge_prod"/>
@@ -1083,7 +1123,7 @@
             <data key="data_type">memUnit</data>
         </edge>
         <edge source="explode_transposeMatrix_output" sourceport="out1"
-            target="multiplyMatricies_1" targetport="in1">
+            target="multiplyMatrices_1" targetport="in1">
             <data key="edge_cons"/>
             <data key="edge_delay"/>
             <data key="edge_prod"/>
@@ -1097,7 +1137,7 @@
             <data key="data_type">memUnit</data>
         </edge>
         <edge source="explode_transposeMatrix_output" sourceport="out2"
-            target="multiplyMatricies_2" targetport="in1">
+            target="multiplyMatrices_2" targetport="in1">
             <data key="edge_cons"/>
             <data key="edge_delay"/>
             <data key="edge_prod"/>
@@ -1111,7 +1151,7 @@
             <data key="data_type">memUnit</data>
         </edge>
         <edge source="explode_transposeMatrix_output" sourceport="out3"
-            target="multiplyMatricies_3" targetport="in1">
+            target="multiplyMatrices_3" targetport="in1">
             <data key="edge_cons"/>
             <data key="edge_delay"/>
             <data key="edge_prod"/>
@@ -1125,7 +1165,7 @@
             <data key="data_type">memUnit</data>
         </edge>
         <edge source="explode_transposeMatrix_output" sourceport="out4"
-            target="multiplyMatricies_4" targetport="in1">
+            target="multiplyMatrices_4" targetport="in1">
             <data key="edge_cons"/>
             <data key="edge_delay"/>
             <data key="edge_prod"/>
@@ -1139,7 +1179,7 @@
             <data key="data_type">memUnit</data>
         </edge>
         <edge source="explode_transposeMatrix_output" sourceport="out5"
-            target="multiplyMatricies_5" targetport="in1">
+            target="multiplyMatrices_5" targetport="in1">
             <data key="edge_cons"/>
             <data key="edge_delay"/>
             <data key="edge_prod"/>
@@ -1153,7 +1193,7 @@
             <data key="data_type">memUnit</data>
         </edge>
         <edge source="explode_transposeMatrix_output" sourceport="out6"
-            target="multiplyMatricies_6" targetport="in1">
+            target="multiplyMatrices_6" targetport="in1">
             <data key="edge_cons"/>
             <data key="edge_delay"/>
             <data key="edge_prod"/>
@@ -1167,7 +1207,7 @@
             <data key="data_type">memUnit</data>
         </edge>
         <edge source="explode_transposeMatrix_output" sourceport="out7"
-            target="multiplyMatricies_7" targetport="in1">
+            target="multiplyMatrices_7" targetport="in1">
             <data key="edge_cons"/>
             <data key="edge_delay"/>
             <data key="edge_prod"/>
@@ -1194,7 +1234,7 @@
             <data key="edge_cons">134217728</data>
             <data key="data_type">memUnit</data>
         </edge>
-        <edge source="multiplyMatricies_0" sourceport="out0"
+        <edge source="multiplyMatrices_0" sourceport="out0"
             target="implode_sumResults_input" targetport="in0">
             <data key="edge_cons"/>
             <data key="edge_delay"/>
@@ -1208,7 +1248,7 @@
             <data key="edge_cons">16777216</data>
             <data key="data_type">memUnit</data>
         </edge>
-        <edge source="multiplyMatricies_1" sourceport="out0"
+        <edge source="multiplyMatrices_1" sourceport="out0"
             target="implode_sumResults_input" targetport="in1">
             <data key="edge_cons"/>
             <data key="edge_delay"/>
@@ -1222,7 +1262,7 @@
             <data key="edge_cons">16777216</data>
             <data key="data_type">memUnit</data>
         </edge>
-        <edge source="multiplyMatricies_2" sourceport="out0"
+        <edge source="multiplyMatrices_2" sourceport="out0"
             target="implode_sumResults_input" targetport="in2">
             <data key="edge_cons"/>
             <data key="edge_delay"/>
@@ -1236,7 +1276,7 @@
             <data key="edge_cons">16777216</data>
             <data key="data_type">memUnit</data>
         </edge>
-        <edge source="multiplyMatricies_3" sourceport="out0"
+        <edge source="multiplyMatrices_3" sourceport="out0"
             target="implode_sumResults_input" targetport="in3">
             <data key="edge_cons"/>
             <data key="edge_delay"/>
@@ -1250,7 +1290,7 @@
             <data key="edge_cons">16777216</data>
             <data key="data_type">memUnit</data>
         </edge>
-        <edge source="multiplyMatricies_4" sourceport="out0"
+        <edge source="multiplyMatrices_4" sourceport="out0"
             target="implode_sumResults_input" targetport="in4">
             <data key="edge_cons"/>
             <data key="edge_delay"/>
@@ -1264,7 +1304,7 @@
             <data key="edge_cons">16777216</data>
             <data key="data_type">memUnit</data>
         </edge>
-        <edge source="multiplyMatricies_5" sourceport="out0"
+        <edge source="multiplyMatrices_5" sourceport="out0"
             target="implode_sumResults_input" targetport="in5">
             <data key="edge_cons"/>
             <data key="edge_delay"/>
@@ -1278,7 +1318,7 @@
             <data key="edge_cons">16777216</data>
             <data key="data_type">memUnit</data>
         </edge>
-        <edge source="multiplyMatricies_6" sourceport="out0"
+        <edge source="multiplyMatrices_6" sourceport="out0"
             target="implode_sumResults_input" targetport="in6">
             <data key="edge_cons"/>
             <data key="edge_delay"/>
@@ -1292,7 +1332,7 @@
             <data key="edge_cons">16777216</data>
             <data key="data_type">memUnit</data>
         </edge>
-        <edge source="multiplyMatricies_7" sourceport="out0"
+        <edge source="multiplyMatrices_7" sourceport="out0"
             target="implode_sumResults_input" targetport="in7">
             <data key="edge_cons"/>
             <data key="edge_delay"/>
@@ -1320,9 +1360,8 @@
             <data key="edge_cons">16777216</data>
             <data key="data_type">memUnit</data>
         </edge>
-        <edge source="explode_generateMatricies_arrayB"
-            sourceport="out8"
-            target="s_explode_generateMatricies_arrayBmultiplyMatricies_0_0" targetport="in0">
+        <edge source="generateMatrices" sourceport="out3"
+            target="s_generateMatricesdisplayMatrix_0" targetport="in0">
             <data key="edge_cons"/>
             <data key="edge_delay"/>
             <data key="edge_prod"/>
@@ -1335,10 +1374,79 @@
             <data key="edge_cons">0</data>
             <data key="data_type">memUnit</data>
         </edge>
-        <edge
-            source="s_explode_generateMatricies_arrayBmultiplyMatricies_0_0"
+        <edge source="s_generateMatricesdisplayMatrix_0"
+            sourceport="out0" target="r_generateMatricesdisplayMatrix_0" targetport="in0">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight"/>
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="r_generateMatricesdisplayMatrix_0"
+            sourceport="out0" target="displayMatrix" targetport="in2">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight"/>
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="generateMatrices" sourceport="out4"
+            target="s_generateMatricestransposeMatrix_0" targetport="in0">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight"/>
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="s_generateMatricestransposeMatrix_0"
             sourceport="out0"
-            target="r_explode_generateMatricies_arrayBmultiplyMatricies_0_0" targetport="in0">
+            target="r_generateMatricestransposeMatrix_0" targetport="in0">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight"/>
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="r_generateMatricestransposeMatrix_0"
+            sourceport="out0" target="transposeMatrix" targetport="in1">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight"/>
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="explode_generateMatrices_arrayB" sourceport="out8"
+            target="s_explode_generateMatrices_arrayBmultiplyMatrices_0_0" targetport="in0">
             <data key="edge_cons"/>
             <data key="edge_delay"/>
             <data key="edge_prod"/>
@@ -1352,39 +1460,9 @@
             <data key="data_type">memUnit</data>
         </edge>
         <edge
-            source="r_explode_generateMatricies_arrayBmultiplyMatricies_0_0"
-            sourceport="out0" target="multiplyMatricies_0" targetport="in2">
-            <data key="edge_cons"/>
-            <data key="edge_delay"/>
-            <data key="edge_prod"/>
-            <data key="data_type"/>
-            <data key="source_port_modifier"/>
-            <data key="target_port_modifier"/>
-            <data key="Weight"/>
-            <data key="edge_prod">0</data>
-            <data key="edge_delay">0</data>
-            <data key="edge_cons">0</data>
-            <data key="data_type">memUnit</data>
-        </edge>
-        <edge source="explode_generateMatricies_arrayB"
-            sourceport="out9"
-            target="s_explode_generateMatricies_arrayBmultiplyMatricies_1_0" targetport="in0">
-            <data key="edge_cons"/>
-            <data key="edge_delay"/>
-            <data key="edge_prod"/>
-            <data key="data_type"/>
-            <data key="source_port_modifier"/>
-            <data key="target_port_modifier"/>
-            <data key="Weight"/>
-            <data key="edge_prod">0</data>
-            <data key="edge_delay">0</data>
-            <data key="edge_cons">0</data>
-            <data key="data_type">memUnit</data>
-        </edge>
-        <edge
-            source="s_explode_generateMatricies_arrayBmultiplyMatricies_1_0"
+            source="s_explode_generateMatrices_arrayBmultiplyMatrices_0_0"
             sourceport="out0"
-            target="r_explode_generateMatricies_arrayBmultiplyMatricies_1_0" targetport="in0">
+            target="r_explode_generateMatrices_arrayBmultiplyMatrices_0_0" targetport="in0">
             <data key="edge_cons"/>
             <data key="edge_delay"/>
             <data key="edge_prod"/>
@@ -1398,8 +1476,8 @@
             <data key="data_type">memUnit</data>
         </edge>
         <edge
-            source="r_explode_generateMatricies_arrayBmultiplyMatricies_1_0"
-            sourceport="out0" target="multiplyMatricies_1" targetport="in2">
+            source="r_explode_generateMatrices_arrayBmultiplyMatrices_0_0"
+            sourceport="out0" target="multiplyMatrices_0" targetport="in2">
             <data key="edge_cons"/>
             <data key="edge_delay"/>
             <data key="edge_prod"/>
@@ -1412,9 +1490,54 @@
             <data key="edge_cons">0</data>
             <data key="data_type">memUnit</data>
         </edge>
-        <edge source="explode_generateMatricies_arrayB"
+        <edge source="explode_generateMatrices_arrayB" sourceport="out9"
+            target="s_explode_generateMatrices_arrayBmultiplyMatrices_1_0" targetport="in0">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight"/>
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge
+            source="s_explode_generateMatrices_arrayBmultiplyMatrices_1_0"
+            sourceport="out0"
+            target="r_explode_generateMatrices_arrayBmultiplyMatrices_1_0" targetport="in0">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight"/>
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge
+            source="r_explode_generateMatrices_arrayBmultiplyMatrices_1_0"
+            sourceport="out0" target="multiplyMatrices_1" targetport="in2">
+            <data key="edge_cons"/>
+            <data key="edge_delay"/>
+            <data key="edge_prod"/>
+            <data key="data_type"/>
+            <data key="source_port_modifier"/>
+            <data key="target_port_modifier"/>
+            <data key="Weight"/>
+            <data key="edge_prod">0</data>
+            <data key="edge_delay">0</data>
+            <data key="edge_cons">0</data>
+            <data key="data_type">memUnit</data>
+        </edge>
+        <edge source="explode_generateMatrices_arrayB"
             sourceport="out10"
-            target="s_explode_generateMatricies_arrayBmultiplyMatricies_2_0" targetport="in0">
+            target="s_explode_generateMatrices_arrayBmultiplyMatrices_2_0" targetport="in0">
             <data key="edge_cons"/>
             <data key="edge_delay"/>
             <data key="edge_prod"/>
@@ -1428,9 +1551,9 @@
             <data key="data_type">memUnit</data>
         </edge>
         <edge
-            source="s_explode_generateMatricies_arrayBmultiplyMatricies_2_0"
+            source="s_explode_generateMatrices_arrayBmultiplyMatrices_2_0"
             sourceport="out0"
-            target="r_explode_generateMatricies_arrayBmultiplyMatricies_2_0" targetport="in0">
+            target="r_explode_generateMatrices_arrayBmultiplyMatrices_2_0" targetport="in0">
             <data key="edge_cons"/>
             <data key="edge_delay"/>
             <data key="edge_prod"/>
@@ -1444,8 +1567,8 @@
             <data key="data_type">memUnit</data>
         </edge>
         <edge
-            source="r_explode_generateMatricies_arrayBmultiplyMatricies_2_0"
-            sourceport="out0" target="multiplyMatricies_2" targetport="in2">
+            source="r_explode_generateMatrices_arrayBmultiplyMatrices_2_0"
+            sourceport="out0" target="multiplyMatrices_2" targetport="in2">
             <data key="edge_cons"/>
             <data key="edge_delay"/>
             <data key="edge_prod"/>
@@ -1458,9 +1581,9 @@
             <data key="edge_cons">0</data>
             <data key="data_type">memUnit</data>
         </edge>
-        <edge source="explode_generateMatricies_arrayB"
+        <edge source="explode_generateMatrices_arrayB"
             sourceport="out11"
-            target="s_explode_generateMatricies_arrayBmultiplyMatricies_3_0" targetport="in0">
+            target="s_explode_generateMatrices_arrayBmultiplyMatrices_3_0" targetport="in0">
             <data key="edge_cons"/>
             <data key="edge_delay"/>
             <data key="edge_prod"/>
@@ -1474,9 +1597,9 @@
             <data key="data_type">memUnit</data>
         </edge>
         <edge
-            source="s_explode_generateMatricies_arrayBmultiplyMatricies_3_0"
+            source="s_explode_generateMatrices_arrayBmultiplyMatrices_3_0"
             sourceport="out0"
-            target="r_explode_generateMatricies_arrayBmultiplyMatricies_3_0" targetport="in0">
+            target="r_explode_generateMatrices_arrayBmultiplyMatrices_3_0" targetport="in0">
             <data key="edge_cons"/>
             <data key="edge_delay"/>
             <data key="edge_prod"/>
@@ -1490,8 +1613,8 @@
             <data key="data_type">memUnit</data>
         </edge>
         <edge
-            source="r_explode_generateMatricies_arrayBmultiplyMatricies_3_0"
-            sourceport="out0" target="multiplyMatricies_3" targetport="in2">
+            source="r_explode_generateMatrices_arrayBmultiplyMatrices_3_0"
+            sourceport="out0" target="multiplyMatrices_3" targetport="in2">
             <data key="edge_cons"/>
             <data key="edge_delay"/>
             <data key="edge_prod"/>
@@ -1504,9 +1627,9 @@
             <data key="edge_cons">0</data>
             <data key="data_type">memUnit</data>
         </edge>
-        <edge source="explode_generateMatricies_arrayB"
+        <edge source="explode_generateMatrices_arrayB"
             sourceport="out12"
-            target="s_explode_generateMatricies_arrayBmultiplyMatricies_4_0" targetport="in0">
+            target="s_explode_generateMatrices_arrayBmultiplyMatrices_4_0" targetport="in0">
             <data key="edge_cons"/>
             <data key="edge_delay"/>
             <data key="edge_prod"/>
@@ -1520,9 +1643,9 @@
             <data key="data_type">memUnit</data>
         </edge>
         <edge
-            source="s_explode_generateMatricies_arrayBmultiplyMatricies_4_0"
+            source="s_explode_generateMatrices_arrayBmultiplyMatrices_4_0"
             sourceport="out0"
-            target="r_explode_generateMatricies_arrayBmultiplyMatricies_4_0" targetport="in0">
+            target="r_explode_generateMatrices_arrayBmultiplyMatrices_4_0" targetport="in0">
             <data key="edge_cons"/>
             <data key="edge_delay"/>
             <data key="edge_prod"/>
@@ -1536,8 +1659,8 @@
             <data key="data_type">memUnit</data>
         </edge>
         <edge
-            source="r_explode_generateMatricies_arrayBmultiplyMatricies_4_0"
-            sourceport="out0" target="multiplyMatricies_4" targetport="in2">
+            source="r_explode_generateMatrices_arrayBmultiplyMatrices_4_0"
+            sourceport="out0" target="multiplyMatrices_4" targetport="in2">
             <data key="edge_cons"/>
             <data key="edge_delay"/>
             <data key="edge_prod"/>
@@ -1550,9 +1673,9 @@
             <data key="edge_cons">0</data>
             <data key="data_type">memUnit</data>
         </edge>
-        <edge source="explode_generateMatricies_arrayB"
+        <edge source="explode_generateMatrices_arrayB"
             sourceport="out13"
-            target="s_explode_generateMatricies_arrayBmultiplyMatricies_6_0" targetport="in0">
+            target="s_explode_generateMatrices_arrayBmultiplyMatrices_5_0" targetport="in0">
             <data key="edge_cons"/>
             <data key="edge_delay"/>
             <data key="edge_prod"/>
@@ -1566,9 +1689,9 @@
             <data key="data_type">memUnit</data>
         </edge>
         <edge
-            source="s_explode_generateMatricies_arrayBmultiplyMatricies_6_0"
+            source="s_explode_generateMatrices_arrayBmultiplyMatrices_5_0"
             sourceport="out0"
-            target="r_explode_generateMatricies_arrayBmultiplyMatricies_6_0" targetport="in0">
+            target="r_explode_generateMatrices_arrayBmultiplyMatrices_5_0" targetport="in0">
             <data key="edge_cons"/>
             <data key="edge_delay"/>
             <data key="edge_prod"/>
@@ -1582,8 +1705,8 @@
             <data key="data_type">memUnit</data>
         </edge>
         <edge
-            source="r_explode_generateMatricies_arrayBmultiplyMatricies_6_0"
-            sourceport="out0" target="multiplyMatricies_6" targetport="in2">
+            source="r_explode_generateMatrices_arrayBmultiplyMatrices_5_0"
+            sourceport="out0" target="multiplyMatrices_5" targetport="in2">
             <data key="edge_cons"/>
             <data key="edge_delay"/>
             <data key="edge_prod"/>
@@ -1596,9 +1719,9 @@
             <data key="edge_cons">0</data>
             <data key="data_type">memUnit</data>
         </edge>
-        <edge source="explode_generateMatricies_arrayB"
+        <edge source="explode_generateMatrices_arrayB"
             sourceport="out14"
-            target="s_explode_generateMatricies_arrayBmultiplyMatricies_7_0" targetport="in0">
+            target="s_explode_generateMatrices_arrayBmultiplyMatrices_6_0" targetport="in0">
             <data key="edge_cons"/>
             <data key="edge_delay"/>
             <data key="edge_prod"/>
@@ -1612,9 +1735,9 @@
             <data key="data_type">memUnit</data>
         </edge>
         <edge
-            source="s_explode_generateMatricies_arrayBmultiplyMatricies_7_0"
+            source="s_explode_generateMatrices_arrayBmultiplyMatrices_6_0"
             sourceport="out0"
-            target="r_explode_generateMatricies_arrayBmultiplyMatricies_7_0" targetport="in0">
+            target="r_explode_generateMatrices_arrayBmultiplyMatrices_6_0" targetport="in0">
             <data key="edge_cons"/>
             <data key="edge_delay"/>
             <data key="edge_prod"/>
@@ -1628,8 +1751,8 @@
             <data key="data_type">memUnit</data>
         </edge>
         <edge
-            source="r_explode_generateMatricies_arrayBmultiplyMatricies_7_0"
-            sourceport="out0" target="multiplyMatricies_7" targetport="in2">
+            source="r_explode_generateMatrices_arrayBmultiplyMatrices_6_0"
+            sourceport="out0" target="multiplyMatrices_6" targetport="in2">
             <data key="edge_cons"/>
             <data key="edge_delay"/>
             <data key="edge_prod"/>
@@ -1643,7 +1766,7 @@
             <data key="data_type">memUnit</data>
         </edge>
         <edge source="explode_transposeMatrix_output" sourceport="out8"
-            target="s_explode_transposeMatrix_outputmultiplyMatricies_0_0" targetport="in0">
+            target="s_explode_transposeMatrix_outputmultiplyMatrices_0_0" targetport="in0">
             <data key="edge_cons"/>
             <data key="edge_delay"/>
             <data key="edge_prod"/>
@@ -1657,9 +1780,9 @@
             <data key="data_type">memUnit</data>
         </edge>
         <edge
-            source="s_explode_transposeMatrix_outputmultiplyMatricies_0_0"
+            source="s_explode_transposeMatrix_outputmultiplyMatrices_0_0"
             sourceport="out0"
-            target="r_explode_transposeMatrix_outputmultiplyMatricies_0_0" targetport="in0">
+            target="r_explode_transposeMatrix_outputmultiplyMatrices_0_0" targetport="in0">
             <data key="edge_cons"/>
             <data key="edge_delay"/>
             <data key="edge_prod"/>
@@ -1673,8 +1796,8 @@
             <data key="data_type">memUnit</data>
         </edge>
         <edge
-            source="r_explode_transposeMatrix_outputmultiplyMatricies_0_0"
-            sourceport="out0" target="multiplyMatricies_0" targetport="in3">
+            source="r_explode_transposeMatrix_outputmultiplyMatrices_0_0"
+            sourceport="out0" target="multiplyMatrices_0" targetport="in3">
             <data key="edge_cons"/>
             <data key="edge_delay"/>
             <data key="edge_prod"/>
@@ -1688,7 +1811,7 @@
             <data key="data_type">memUnit</data>
         </edge>
         <edge source="explode_transposeMatrix_output" sourceport="out9"
-            target="s_explode_transposeMatrix_outputmultiplyMatricies_1_0" targetport="in0">
+            target="s_explode_transposeMatrix_outputmultiplyMatrices_1_0" targetport="in0">
             <data key="edge_cons"/>
             <data key="edge_delay"/>
             <data key="edge_prod"/>
@@ -1702,9 +1825,9 @@
             <data key="data_type">memUnit</data>
         </edge>
         <edge
-            source="s_explode_transposeMatrix_outputmultiplyMatricies_1_0"
+            source="s_explode_transposeMatrix_outputmultiplyMatrices_1_0"
             sourceport="out0"
-            target="r_explode_transposeMatrix_outputmultiplyMatricies_1_0" targetport="in0">
+            target="r_explode_transposeMatrix_outputmultiplyMatrices_1_0" targetport="in0">
             <data key="edge_cons"/>
             <data key="edge_delay"/>
             <data key="edge_prod"/>
@@ -1718,8 +1841,8 @@
             <data key="data_type">memUnit</data>
         </edge>
         <edge
-            source="r_explode_transposeMatrix_outputmultiplyMatricies_1_0"
-            sourceport="out0" target="multiplyMatricies_1" targetport="in3">
+            source="r_explode_transposeMatrix_outputmultiplyMatrices_1_0"
+            sourceport="out0" target="multiplyMatrices_1" targetport="in3">
             <data key="edge_cons"/>
             <data key="edge_delay"/>
             <data key="edge_prod"/>
@@ -1733,7 +1856,7 @@
             <data key="data_type">memUnit</data>
         </edge>
         <edge source="explode_transposeMatrix_output" sourceport="out10"
-            target="s_explode_transposeMatrix_outputmultiplyMatricies_2_0" targetport="in0">
+            target="s_explode_transposeMatrix_outputmultiplyMatrices_2_0" targetport="in0">
             <data key="edge_cons"/>
             <data key="edge_delay"/>
             <data key="edge_prod"/>
@@ -1747,9 +1870,9 @@
             <data key="data_type">memUnit</data>
         </edge>
         <edge
-            source="s_explode_transposeMatrix_outputmultiplyMatricies_2_0"
+            source="s_explode_transposeMatrix_outputmultiplyMatrices_2_0"
             sourceport="out0"
-            target="r_explode_transposeMatrix_outputmultiplyMatricies_2_0" targetport="in0">
+            target="r_explode_transposeMatrix_outputmultiplyMatrices_2_0" targetport="in0">
             <data key="edge_cons"/>
             <data key="edge_delay"/>
             <data key="edge_prod"/>
@@ -1763,8 +1886,8 @@
             <data key="data_type">memUnit</data>
         </edge>
         <edge
-            source="r_explode_transposeMatrix_outputmultiplyMatricies_2_0"
-            sourceport="out0" target="multiplyMatricies_2" targetport="in3">
+            source="r_explode_transposeMatrix_outputmultiplyMatrices_2_0"
+            sourceport="out0" target="multiplyMatrices_2" targetport="in3">
             <data key="edge_cons"/>
             <data key="edge_delay"/>
             <data key="edge_prod"/>
@@ -1778,7 +1901,7 @@
             <data key="data_type">memUnit</data>
         </edge>
         <edge source="explode_transposeMatrix_output" sourceport="out11"
-            target="s_explode_transposeMatrix_outputmultiplyMatricies_3_0" targetport="in0">
+            target="s_explode_transposeMatrix_outputmultiplyMatrices_4_0" targetport="in0">
             <data key="edge_cons"/>
             <data key="edge_delay"/>
             <data key="edge_prod"/>
@@ -1792,9 +1915,9 @@
             <data key="data_type">memUnit</data>
         </edge>
         <edge
-            source="s_explode_transposeMatrix_outputmultiplyMatricies_3_0"
+            source="s_explode_transposeMatrix_outputmultiplyMatrices_4_0"
             sourceport="out0"
-            target="r_explode_transposeMatrix_outputmultiplyMatricies_3_0" targetport="in0">
+            target="r_explode_transposeMatrix_outputmultiplyMatrices_4_0" targetport="in0">
             <data key="edge_cons"/>
             <data key="edge_delay"/>
             <data key="edge_prod"/>
@@ -1808,8 +1931,8 @@
             <data key="data_type">memUnit</data>
         </edge>
         <edge
-            source="r_explode_transposeMatrix_outputmultiplyMatricies_3_0"
-            sourceport="out0" target="multiplyMatricies_3" targetport="in3">
+            source="r_explode_transposeMatrix_outputmultiplyMatrices_4_0"
+            sourceport="out0" target="multiplyMatrices_4" targetport="in3">
             <data key="edge_cons"/>
             <data key="edge_delay"/>
             <data key="edge_prod"/>
@@ -1823,7 +1946,7 @@
             <data key="data_type">memUnit</data>
         </edge>
         <edge source="explode_transposeMatrix_output" sourceport="out12"
-            target="s_explode_transposeMatrix_outputmultiplyMatricies_4_0" targetport="in0">
+            target="s_explode_transposeMatrix_outputmultiplyMatrices_5_0" targetport="in0">
             <data key="edge_cons"/>
             <data key="edge_delay"/>
             <data key="edge_prod"/>
@@ -1837,9 +1960,9 @@
             <data key="data_type">memUnit</data>
         </edge>
         <edge
-            source="s_explode_transposeMatrix_outputmultiplyMatricies_4_0"
+            source="s_explode_transposeMatrix_outputmultiplyMatrices_5_0"
             sourceport="out0"
-            target="r_explode_transposeMatrix_outputmultiplyMatricies_4_0" targetport="in0">
+            target="r_explode_transposeMatrix_outputmultiplyMatrices_5_0" targetport="in0">
             <data key="edge_cons"/>
             <data key="edge_delay"/>
             <data key="edge_prod"/>
@@ -1853,8 +1976,8 @@
             <data key="data_type">memUnit</data>
         </edge>
         <edge
-            source="r_explode_transposeMatrix_outputmultiplyMatricies_4_0"
-            sourceport="out0" target="multiplyMatricies_4" targetport="in3">
+            source="r_explode_transposeMatrix_outputmultiplyMatrices_5_0"
+            sourceport="out0" target="multiplyMatrices_5" targetport="in3">
             <data key="edge_cons"/>
             <data key="edge_delay"/>
             <data key="edge_prod"/>
@@ -1868,7 +1991,7 @@
             <data key="data_type">memUnit</data>
         </edge>
         <edge source="explode_transposeMatrix_output" sourceport="out13"
-            target="s_explode_transposeMatrix_outputmultiplyMatricies_6_0" targetport="in0">
+            target="s_explode_transposeMatrix_outputmultiplyMatrices_6_0" targetport="in0">
             <data key="edge_cons"/>
             <data key="edge_delay"/>
             <data key="edge_prod"/>
@@ -1882,9 +2005,9 @@
             <data key="data_type">memUnit</data>
         </edge>
         <edge
-            source="s_explode_transposeMatrix_outputmultiplyMatricies_6_0"
+            source="s_explode_transposeMatrix_outputmultiplyMatrices_6_0"
             sourceport="out0"
-            target="r_explode_transposeMatrix_outputmultiplyMatricies_6_0" targetport="in0">
+            target="r_explode_transposeMatrix_outputmultiplyMatrices_6_0" targetport="in0">
             <data key="edge_cons"/>
             <data key="edge_delay"/>
             <data key="edge_prod"/>
@@ -1898,8 +2021,8 @@
             <data key="data_type">memUnit</data>
         </edge>
         <edge
-            source="r_explode_transposeMatrix_outputmultiplyMatricies_6_0"
-            sourceport="out0" target="multiplyMatricies_6" targetport="in3">
+            source="r_explode_transposeMatrix_outputmultiplyMatrices_6_0"
+            sourceport="out0" target="multiplyMatrices_6" targetport="in3">
             <data key="edge_cons"/>
             <data key="edge_delay"/>
             <data key="edge_prod"/>
@@ -1913,7 +2036,7 @@
             <data key="data_type">memUnit</data>
         </edge>
         <edge source="explode_transposeMatrix_output" sourceport="out14"
-            target="s_explode_transposeMatrix_outputmultiplyMatricies_7_0" targetport="in0">
+            target="s_explode_transposeMatrix_outputmultiplyMatrices_7_0" targetport="in0">
             <data key="edge_cons"/>
             <data key="edge_delay"/>
             <data key="edge_prod"/>
@@ -1927,9 +2050,9 @@
             <data key="data_type">memUnit</data>
         </edge>
         <edge
-            source="s_explode_transposeMatrix_outputmultiplyMatricies_7_0"
+            source="s_explode_transposeMatrix_outputmultiplyMatrices_7_0"
             sourceport="out0"
-            target="r_explode_transposeMatrix_outputmultiplyMatricies_7_0" targetport="in0">
+            target="r_explode_transposeMatrix_outputmultiplyMatrices_7_0" targetport="in0">
             <data key="edge_cons"/>
             <data key="edge_delay"/>
             <data key="edge_prod"/>
@@ -1943,8 +2066,8 @@
             <data key="data_type">memUnit</data>
         </edge>
         <edge
-            source="r_explode_transposeMatrix_outputmultiplyMatricies_7_0"
-            sourceport="out0" target="multiplyMatricies_7" targetport="in3">
+            source="r_explode_transposeMatrix_outputmultiplyMatrices_7_0"
+            sourceport="out0" target="multiplyMatrices_7" targetport="in2">
             <data key="edge_cons"/>
             <data key="edge_delay"/>
             <data key="edge_prod"/>
@@ -1957,8 +2080,8 @@
             <data key="edge_cons">0</data>
             <data key="data_type">memUnit</data>
         </edge>
-        <edge source="multiplyMatricies_0" sourceport="out1"
-            target="s_multiplyMatricies_0implode_sumResults_input_0" targetport="in0">
+        <edge source="multiplyMatrices_0" sourceport="out1"
+            target="s_multiplyMatrices_0implode_sumResults_input_0" targetport="in0">
             <data key="edge_cons"/>
             <data key="edge_delay"/>
             <data key="edge_prod"/>
@@ -1971,9 +2094,9 @@
             <data key="edge_cons">0</data>
             <data key="data_type">memUnit</data>
         </edge>
-        <edge source="s_multiplyMatricies_0implode_sumResults_input_0"
+        <edge source="s_multiplyMatrices_0implode_sumResults_input_0"
             sourceport="out0"
-            target="r_multiplyMatricies_0implode_sumResults_input_0" targetport="in0">
+            target="r_multiplyMatrices_0implode_sumResults_input_0" targetport="in0">
             <data key="edge_cons"/>
             <data key="edge_delay"/>
             <data key="edge_prod"/>
@@ -1986,7 +2109,7 @@
             <data key="edge_cons">0</data>
             <data key="data_type">memUnit</data>
         </edge>
-        <edge source="r_multiplyMatricies_0implode_sumResults_input_0"
+        <edge source="r_multiplyMatrices_0implode_sumResults_input_0"
             sourceport="out0" target="implode_sumResults_input" targetport="in8">
             <data key="edge_cons"/>
             <data key="edge_delay"/>
@@ -2000,8 +2123,8 @@
             <data key="edge_cons">0</data>
             <data key="data_type">memUnit</data>
         </edge>
-        <edge source="multiplyMatricies_1" sourceport="out1"
-            target="s_multiplyMatricies_1implode_sumResults_input_0" targetport="in0">
+        <edge source="multiplyMatrices_1" sourceport="out1"
+            target="s_multiplyMatrices_1implode_sumResults_input_0" targetport="in0">
             <data key="edge_cons"/>
             <data key="edge_delay"/>
             <data key="edge_prod"/>
@@ -2014,9 +2137,9 @@
             <data key="edge_cons">0</data>
             <data key="data_type">memUnit</data>
         </edge>
-        <edge source="s_multiplyMatricies_1implode_sumResults_input_0"
+        <edge source="s_multiplyMatrices_1implode_sumResults_input_0"
             sourceport="out0"
-            target="r_multiplyMatricies_1implode_sumResults_input_0" targetport="in0">
+            target="r_multiplyMatrices_1implode_sumResults_input_0" targetport="in0">
             <data key="edge_cons"/>
             <data key="edge_delay"/>
             <data key="edge_prod"/>
@@ -2029,7 +2152,7 @@
             <data key="edge_cons">0</data>
             <data key="data_type">memUnit</data>
         </edge>
-        <edge source="r_multiplyMatricies_1implode_sumResults_input_0"
+        <edge source="r_multiplyMatrices_1implode_sumResults_input_0"
             sourceport="out0" target="implode_sumResults_input" targetport="in9">
             <data key="edge_cons"/>
             <data key="edge_delay"/>
@@ -2043,8 +2166,8 @@
             <data key="edge_cons">0</data>
             <data key="data_type">memUnit</data>
         </edge>
-        <edge source="multiplyMatricies_2" sourceport="out1"
-            target="s_multiplyMatricies_2implode_sumResults_input_0" targetport="in0">
+        <edge source="multiplyMatrices_2" sourceport="out1"
+            target="s_multiplyMatrices_2implode_sumResults_input_0" targetport="in0">
             <data key="edge_cons"/>
             <data key="edge_delay"/>
             <data key="edge_prod"/>
@@ -2057,9 +2180,9 @@
             <data key="edge_cons">0</data>
             <data key="data_type">memUnit</data>
         </edge>
-        <edge source="s_multiplyMatricies_2implode_sumResults_input_0"
+        <edge source="s_multiplyMatrices_2implode_sumResults_input_0"
             sourceport="out0"
-            target="r_multiplyMatricies_2implode_sumResults_input_0" targetport="in0">
+            target="r_multiplyMatrices_2implode_sumResults_input_0" targetport="in0">
             <data key="edge_cons"/>
             <data key="edge_delay"/>
             <data key="edge_prod"/>
@@ -2072,7 +2195,7 @@
             <data key="edge_cons">0</data>
             <data key="data_type">memUnit</data>
         </edge>
-        <edge source="r_multiplyMatricies_2implode_sumResults_input_0"
+        <edge source="r_multiplyMatrices_2implode_sumResults_input_0"
             sourceport="out0" target="implode_sumResults_input" targetport="in10">
             <data key="edge_cons"/>
             <data key="edge_delay"/>
@@ -2086,8 +2209,8 @@
             <data key="edge_cons">0</data>
             <data key="data_type">memUnit</data>
         </edge>
-        <edge source="multiplyMatricies_3" sourceport="out1"
-            target="s_multiplyMatricies_3implode_sumResults_input_0" targetport="in0">
+        <edge source="multiplyMatrices_3" sourceport="out1"
+            target="s_multiplyMatrices_3implode_sumResults_input_0" targetport="in0">
             <data key="edge_cons"/>
             <data key="edge_delay"/>
             <data key="edge_prod"/>
@@ -2100,9 +2223,9 @@
             <data key="edge_cons">0</data>
             <data key="data_type">memUnit</data>
         </edge>
-        <edge source="s_multiplyMatricies_3implode_sumResults_input_0"
+        <edge source="s_multiplyMatrices_3implode_sumResults_input_0"
             sourceport="out0"
-            target="r_multiplyMatricies_3implode_sumResults_input_0" targetport="in0">
+            target="r_multiplyMatrices_3implode_sumResults_input_0" targetport="in0">
             <data key="edge_cons"/>
             <data key="edge_delay"/>
             <data key="edge_prod"/>
@@ -2115,7 +2238,7 @@
             <data key="edge_cons">0</data>
             <data key="data_type">memUnit</data>
         </edge>
-        <edge source="r_multiplyMatricies_3implode_sumResults_input_0"
+        <edge source="r_multiplyMatrices_3implode_sumResults_input_0"
             sourceport="out0" target="implode_sumResults_input" targetport="in11">
             <data key="edge_cons"/>
             <data key="edge_delay"/>
@@ -2129,8 +2252,8 @@
             <data key="edge_cons">0</data>
             <data key="data_type">memUnit</data>
         </edge>
-        <edge source="multiplyMatricies_4" sourceport="out1"
-            target="s_multiplyMatricies_4implode_sumResults_input_0" targetport="in0">
+        <edge source="multiplyMatrices_5" sourceport="out1"
+            target="s_multiplyMatrices_5implode_sumResults_input_0" targetport="in0">
             <data key="edge_cons"/>
             <data key="edge_delay"/>
             <data key="edge_prod"/>
@@ -2143,9 +2266,9 @@
             <data key="edge_cons">0</data>
             <data key="data_type">memUnit</data>
         </edge>
-        <edge source="s_multiplyMatricies_4implode_sumResults_input_0"
+        <edge source="s_multiplyMatrices_5implode_sumResults_input_0"
             sourceport="out0"
-            target="r_multiplyMatricies_4implode_sumResults_input_0" targetport="in0">
+            target="r_multiplyMatrices_5implode_sumResults_input_0" targetport="in0">
             <data key="edge_cons"/>
             <data key="edge_delay"/>
             <data key="edge_prod"/>
@@ -2158,7 +2281,7 @@
             <data key="edge_cons">0</data>
             <data key="data_type">memUnit</data>
         </edge>
-        <edge source="r_multiplyMatricies_4implode_sumResults_input_0"
+        <edge source="r_multiplyMatrices_5implode_sumResults_input_0"
             sourceport="out0" target="implode_sumResults_input" targetport="in12">
             <data key="edge_cons"/>
             <data key="edge_delay"/>
@@ -2172,8 +2295,8 @@
             <data key="edge_cons">0</data>
             <data key="data_type">memUnit</data>
         </edge>
-        <edge source="multiplyMatricies_6" sourceport="out1"
-            target="s_multiplyMatricies_6implode_sumResults_input_0" targetport="in0">
+        <edge source="multiplyMatrices_6" sourceport="out1"
+            target="s_multiplyMatrices_6implode_sumResults_input_0" targetport="in0">
             <data key="edge_cons"/>
             <data key="edge_delay"/>
             <data key="edge_prod"/>
@@ -2186,9 +2309,9 @@
             <data key="edge_cons">0</data>
             <data key="data_type">memUnit</data>
         </edge>
-        <edge source="s_multiplyMatricies_6implode_sumResults_input_0"
+        <edge source="s_multiplyMatrices_6implode_sumResults_input_0"
             sourceport="out0"
-            target="r_multiplyMatricies_6implode_sumResults_input_0" targetport="in0">
+            target="r_multiplyMatrices_6implode_sumResults_input_0" targetport="in0">
             <data key="edge_cons"/>
             <data key="edge_delay"/>
             <data key="edge_prod"/>
@@ -2201,7 +2324,7 @@
             <data key="edge_cons">0</data>
             <data key="data_type">memUnit</data>
         </edge>
-        <edge source="r_multiplyMatricies_6implode_sumResults_input_0"
+        <edge source="r_multiplyMatrices_6implode_sumResults_input_0"
             sourceport="out0" target="implode_sumResults_input" targetport="in13">
             <data key="edge_cons"/>
             <data key="edge_delay"/>
@@ -2215,8 +2338,8 @@
             <data key="edge_cons">0</data>
             <data key="data_type">memUnit</data>
         </edge>
-        <edge source="multiplyMatricies_7" sourceport="out1"
-            target="s_multiplyMatricies_7implode_sumResults_input_0" targetport="in0">
+        <edge source="multiplyMatrices_7" sourceport="out1"
+            target="s_multiplyMatrices_7implode_sumResults_input_0" targetport="in0">
             <data key="edge_cons"/>
             <data key="edge_delay"/>
             <data key="edge_prod"/>
@@ -2229,9 +2352,9 @@
             <data key="edge_cons">0</data>
             <data key="data_type">memUnit</data>
         </edge>
-        <edge source="s_multiplyMatricies_7implode_sumResults_input_0"
+        <edge source="s_multiplyMatrices_7implode_sumResults_input_0"
             sourceport="out0"
-            target="r_multiplyMatricies_7implode_sumResults_input_0" targetport="in0">
+            target="r_multiplyMatrices_7implode_sumResults_input_0" targetport="in0">
             <data key="edge_cons"/>
             <data key="edge_delay"/>
             <data key="edge_prod"/>
@@ -2244,7 +2367,7 @@
             <data key="edge_cons">0</data>
             <data key="data_type">memUnit</data>
         </edge>
-        <edge source="r_multiplyMatricies_7implode_sumResults_input_0"
+        <edge source="r_multiplyMatrices_7implode_sumResults_input_0"
             sourceport="out0" target="implode_sumResults_input" targetport="in14">
             <data key="edge_cons"/>
             <data key="edge_delay"/>
