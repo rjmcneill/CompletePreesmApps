@@ -1,0 +1,68 @@
+# Memory scripts summary
+- Independent match trees : *3*
+- Total number of buffers in these trees: From 27 to 7 buffers.
+- Total size of these buffers: From 872416512 to 234881920 (73.07685987493093%).
+
+# Match tree optimization log
+## Tree of 9 buffers
+### Original buffer list:
+> [implode_displayMatrix_arrayC.arrayC_0[8388608], implode_displayMatrix_arrayC.arrayC_2097152[8388608], implode_displayMatrix_arrayC.arrayC_4194304[8388608], implode_displayMatrix_arrayC.arrayC_6291456[8388608], implode_displayMatrix_arrayC.arrayC_8388608[8388608], implode_displayMatrix_arrayC.arrayC_10485760[8388608], implode_displayMatrix_arrayC.arrayC_12582912[8388608], implode_displayMatrix_arrayC.arrayC_14680064[8388608], implode_displayMatrix_arrayC.output[67108864]]
+
+### Match application log: 
+- __Step 6 - 1 matches__
+>implode_displayMatrix_arrayC.arrayC_0[-64..8388672[=>implode_displayMatrix_arrayC.output[-64..8388672[  
+- __Step 6 - 1 matches__
+>implode_displayMatrix_arrayC.arrayC_10485760[-64..8388672[=>implode_displayMatrix_arrayC.output[41942976..50331712[  
+- __Step 6 - 1 matches__
+>implode_displayMatrix_arrayC.arrayC_14680064[-64..8388672[=>implode_displayMatrix_arrayC.output[58720192..67108928[  
+- __Step 6 - 1 matches__
+>implode_displayMatrix_arrayC.arrayC_4194304[-64..8388672[=>implode_displayMatrix_arrayC.output[16777152..25165888[  
+
+### Tree summary:
+- From 9 buffers to 5 buffers.
+- From 134218752 bytes to 100663936 bytes (25.000095366704052%)
+
+### Unapplied matches:
+>implode_displayMatrix_arrayC.arrayC_2097152[0..8388608[=>implode_displayMatrix_arrayC.output[8388608..16777216[, implode_displayMatrix_arrayC.arrayC_6291456[0..8388608[=>implode_displayMatrix_arrayC.output[25165824..33554432[, implode_displayMatrix_arrayC.arrayC_8388608[0..8388608[=>implode_displayMatrix_arrayC.output[33554432..41943040[, implode_displayMatrix_arrayC.arrayC_12582912[0..8388608[=>implode_displayMatrix_arrayC.output[50331648..58720256[, 
+## Tree of 9 buffers
+### Original buffer list:
+> [broadcastArrayB.arrayBIn[67108864], broadcastArrayB.arrayBOut_0[67108864], broadcastArrayB.arrayBOut_16777216[67108864], broadcastArrayB.arrayBOut_33554432[67108864], broadcastArrayB.arrayBOut_50331648[67108864], broadcastArrayB.arrayBOut_67108864[67108864], broadcastArrayB.arrayBOut_83886080[67108864], broadcastArrayB.arrayBOut_100663296[67108864], broadcastArrayB.arrayBOut_117440512[67108864]]
+
+### Match application log: 
+- __Step 4 - 1 matches__
+>broadcastArrayB.arrayBOut_0[0..67108864[=>broadcastArrayB.arrayBIn[0..67108864[  
+- __Step 4 - 1 matches__
+>broadcastArrayB.arrayBOut_100663296[0..67108864[=>broadcastArrayB.arrayBIn[0..67108864[  
+- __Step 4 - 1 matches__
+>broadcastArrayB.arrayBOut_117440512[0..67108864[=>broadcastArrayB.arrayBIn[0..67108864[  
+- __Step 4 - 1 matches__
+>broadcastArrayB.arrayBOut_16777216[0..67108864[=>broadcastArrayB.arrayBIn[0..67108864[  
+- __Step 4 - 1 matches__
+>broadcastArrayB.arrayBOut_33554432[0..67108864[=>broadcastArrayB.arrayBIn[0..67108864[  
+- __Step 4 - 1 matches__
+>broadcastArrayB.arrayBOut_50331648[0..67108864[=>broadcastArrayB.arrayBIn[0..67108864[  
+- __Step 4 - 1 matches__
+>broadcastArrayB.arrayBOut_67108864[0..67108864[=>broadcastArrayB.arrayBIn[0..67108864[  
+- __Step 0 - 1 matches__
+>broadcastArrayB.arrayBIn[0..67108864[=>broadcastArrayB.arrayBOut_83886080[0..67108864[  
+
+### Tree summary:
+- From 9 buffers to 1 buffers.
+- From 603979904 bytes to 67108992 bytes (88.88887005088169%)
+
+### Unapplied matches:
+>
+## Tree of 9 buffers
+### Original buffer list:
+> [explode_generateMatricies_arrayA.arrayA[67108864], explode_generateMatricies_arrayA.arrayA_0[8388608], explode_generateMatricies_arrayA.arrayA_2097152[8388608], explode_generateMatricies_arrayA.arrayA_4194304[8388608], explode_generateMatricies_arrayA.arrayA_6291456[8388608], explode_generateMatricies_arrayA.arrayA_8388608[8388608], explode_generateMatricies_arrayA.arrayA_10485760[8388608], explode_generateMatricies_arrayA.arrayA_12582912[8388608], explode_generateMatricies_arrayA.arrayA_14680064[8388608]]
+
+### Match application log: 
+- __Step 0 - 8 matches__
+>explode_generateMatricies_arrayA.arrayA_0[0..8388608[=>explode_generateMatricies_arrayA.arrayA[0..8388608[  explode_generateMatricies_arrayA.arrayA_10485760[0..8388608[=>explode_generateMatricies_arrayA.arrayA[41943040..50331648[  explode_generateMatricies_arrayA.arrayA_12582912[0..8388608[=>explode_generateMatricies_arrayA.arrayA[50331648..58720256[  explode_generateMatricies_arrayA.arrayA_14680064[0..8388608[=>explode_generateMatricies_arrayA.arrayA[58720256..67108864[  explode_generateMatricies_arrayA.arrayA_2097152[0..8388608[=>explode_generateMatricies_arrayA.arrayA[8388608..16777216[  explode_generateMatricies_arrayA.arrayA_4194304[0..8388608[=>explode_generateMatricies_arrayA.arrayA[16777216..25165824[  explode_generateMatricies_arrayA.arrayA_6291456[0..8388608[=>explode_generateMatricies_arrayA.arrayA[25165824..33554432[  explode_generateMatricies_arrayA.arrayA_8388608[0..8388608[=>explode_generateMatricies_arrayA.arrayA[33554432..41943040[  
+
+### Tree summary:
+- From 9 buffers to 1 buffers.
+- From 134217856 bytes to 67108992 bytes (49.999952316329654%)
+
+### Unapplied matches:
+>
