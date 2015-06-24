@@ -1,0 +1,6 @@
+generate;"=AVERAGE(A9:A65536)"
+implode_displayMatrix_arrayC;"=AVERAGE(L9:L65536)"
+explode_generateMatricies_arrayA;"=AVERAGE(C9:C65536)"
+broadcastArrayB;"=AVERAGE(B9:B65536)"
+display;"=AVERAGE(M9:M65536)"
+multiply;"=AVERAGE(D9:D65536;E9:E65536;F9:F65536;G9:G65536;H9:H65536;I9:I65536;J9:J65536;K9:K65536)"

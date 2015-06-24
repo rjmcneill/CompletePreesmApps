@@ -1,0 +1,1 @@
+"../src/cache.c" "../src/communication.c" "../src/displayMatrix.c" "../src/dump.c" "../src/fifo.c" "../src/generateMatrices.c" "../src/main.c" "../src/memory.c" "../src/multiplyMatrices.c" "../src/semaphore6678.c" "../src/sumResults.c" "../src/transposeMatrix.c" "../src/utils.c" 

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scenario>
+    <files>
+        <algorithm url="/crossCoreMultiplication/Algo/multiply.pi"/>
+        <architecture url="/crossCoreMultiplication/Archi/4CoreX86.slam"/>
+        <codegenDirectory url="/crossCoreMultiplication/Code/generated"/>
+    </files>
+    <constraints excelUrl="">
+        <constraintGroup>
+            <operator name="Core0"/>
+            <task name="multiply/multiplyMatricies"/>
+            <task name="multiply/generateMatricies"/>
+            <task name="multiply/displayMatrix"/>
+            <task name="multiply"/>
+        </constraintGroup>
+        <constraintGroup>
+            <operator name="Core3"/>
+            <task name="multiply/multiplyMatricies"/>
+            <task name="multiply/generateMatricies"/>
+            <task name="multiply/displayMatrix"/>
+            <task name="multiply"/>
+        </constraintGroup>
+        <constraintGroup>
+            <operator name="Core2"/>
+            <task name="multiply/multiplyMatricies"/>
+            <task name="multiply/generateMatricies"/>
+            <task name="multiply/displayMatrix"/>
+            <task name="multiply"/>
+        </constraintGroup>
+        <constraintGroup>
+            <operator name="Core1"/>
+            <task name="multiply/multiplyMatricies"/>
+            <task name="multiply/generateMatricies"/>
+            <task name="multiply/displayMatrix"/>
+            <task name="multiply"/>
+        </constraintGroup>
+    </constraints>
+    <relativeconstraints excelUrl=""/>
+    <timings excelUrl="">
+        <memcpyspeed opname="x86" setuptime="1" timeperunit="1.0"/>
+    </timings>
+    <simuParams>
+        <mainCore>Core0</mainCore>
+        <mainComNode>shared_mem</mainComNode>
+        <averageDataSize>1000</averageDataSize>
+        <dataTypes>
+            <dataType name="int" size="1"/>
+        </dataTypes>
+        <specialVertexOperators>
+            <specialVertexOperator path="Core3"/>
+            <specialVertexOperator path="Core0"/>
+            <specialVertexOperator path="Core2"/>
+            <specialVertexOperator path="Core1"/>
+        </specialVertexOperators>
+        <numberOfTopExecutions>1</numberOfTopExecutions>
+    </simuParams>
+    <variables excelUrl=""/>
+    <parameterValues/>
+</scenario>

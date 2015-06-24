@@ -1,0 +1,8 @@
+- crossCoreMultiplicationUsingAddition project in CCS
+- 1/8 of arrayA
+- 1/8 of arrayB
+    - memcpy
+- rowA * columnB then add results
+- Working
+- Timing done
+- Pre-optimisation
