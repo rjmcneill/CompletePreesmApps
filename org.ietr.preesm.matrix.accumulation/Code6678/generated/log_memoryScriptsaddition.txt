@@ -1,0 +1,40 @@
+# Memory scripts summary
+- Independent match trees : *2*
+- Total number of buffers in these trees: From 27 to 22 buffers.
+- Total size of these buffers: From 4224 to 3328 (21.21212121212121%).
+
+# Match tree optimization log
+## Tree of 18 buffers
+### Original buffer list:
+> [broadcastOutput.input[256], broadcastOutput.output2[256], broadcastOutput.output1_8[32], broadcastOutput.output1_40[32], broadcastOutput.output1_32[32], broadcastOutput.output1_16[32], broadcastOutput.output1_0[32], broadcastOutput.output1_24[32], broadcastOutput.output1_48[32], broadcastOutput.output1_56[32], implode_broadcastOutput_input.input_0[32], implode_broadcastOutput_input.input_8[32], implode_broadcastOutput_input.input_16[32], implode_broadcastOutput_input.input_24[32], implode_broadcastOutput_input.input_32[32], implode_broadcastOutput_input.input_40[32], implode_broadcastOutput_input.input_48[32], implode_broadcastOutput_input.input_56[32]]
+
+### Match application log: 
+- __Step 6 - 1 matches__
+>broadcastOutput.output2[-64..320[=>broadcastOutput.input[-64..320[  
+- __Step 6 - 1 matches__
+>implode_broadcastOutput_input.input_0[-64..64[=>broadcastOutput.input[-64..64[  
+- __Step 6 - 1 matches__
+>implode_broadcastOutput_input.input_32[-64..64[=>broadcastOutput.input[64..192[  
+
+### Tree summary:
+- From 18 buffers to 15 buffers.
+- From 2816 bytes to 2176 bytes (22.727272727272727%)
+
+### Unapplied matches:
+>broadcastOutput.input[64..96[=>broadcastOutput.output1_32[0..32[, implode_broadcastOutput_input.output[64..96[=>implode_broadcastOutput_input.input_16[0..32[, broadcastOutput.input[32..64[=>broadcastOutput.output1_40[0..32[, implode_broadcastOutput_input.output[32..64[=>implode_broadcastOutput_input.input_8[0..32[, broadcastOutput.input[96..128[=>broadcastOutput.output1_16[0..32[, implode_broadcastOutput_input.output[96..128[=>implode_broadcastOutput_input.input_24[0..32[, broadcastOutput.input[0..32[=>broadcastOutput.output1_8[0..32[, broadcastOutput.input[128..160[=>broadcastOutput.output1_0[0..32[, broadcastOutput.input[160..192[=>broadcastOutput.output1_24[0..32[, implode_broadcastOutput_input.output[160..192[=>implode_broadcastOutput_input.input_40[0..32[, broadcastOutput.input[192..224[=>broadcastOutput.output1_48[0..32[, implode_broadcastOutput_input.output[192..224[=>implode_broadcastOutput_input.input_48[0..32[, broadcastOutput.input[224..256[=>broadcastOutput.output1_56[0..32[, implode_broadcastOutput_input.output[224..256[=>implode_broadcastOutput_input.input_56[0..32[, 
+## Tree of 9 buffers
+### Original buffer list:
+> [explode_generateMatrices_startArray.inputArray[256], explode_generateMatrices_startArray.startArray_0[32], explode_generateMatrices_startArray.startArray_8[32], explode_generateMatrices_startArray.startArray_16[32], explode_generateMatrices_startArray.startArray_24[32], explode_generateMatrices_startArray.startArray_32[32], explode_generateMatrices_startArray.startArray_40[32], explode_generateMatrices_startArray.startArray_48[32], explode_generateMatrices_startArray.startArray_56[32]]
+
+### Match application log: 
+- __Step 6 - 1 matches__
+>explode_generateMatrices_startArray.startArray_0[-64..64[=>explode_generateMatrices_startArray.inputArray[-64..64[  
+- __Step 6 - 1 matches__
+>explode_generateMatrices_startArray.startArray_32[-64..64[=>explode_generateMatrices_startArray.inputArray[64..192[  
+
+### Tree summary:
+- From 9 buffers to 7 buffers.
+- From 1408 bytes to 1152 bytes (18.181818181818183%)
+
+### Unapplied matches:
+>explode_generateMatrices_startArray.inputArray[64..96[=>explode_generateMatrices_startArray.startArray_16[0..32[, explode_generateMatrices_startArray.inputArray[32..64[=>explode_generateMatrices_startArray.startArray_8[0..32[, explode_generateMatrices_startArray.inputArray[96..128[=>explode_generateMatrices_startArray.startArray_24[0..32[, explode_generateMatrices_startArray.inputArray[160..192[=>explode_generateMatrices_startArray.startArray_40[0..32[, explode_generateMatrices_startArray.inputArray[192..224[=>explode_generateMatrices_startArray.startArray_48[0..32[, explode_generateMatrices_startArray.inputArray[224..256[=>explode_generateMatrices_startArray.startArray_56[0..32[, 
