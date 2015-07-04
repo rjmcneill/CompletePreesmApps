@@ -1,0 +1,54 @@
+# Memory scripts summary
+- Independent match trees : *3*
+- Total number of buffers in these trees: From 27 to 21 buffers.
+- Total size of these buffers: From 4224 to 3456 (18.181818181818183%).
+
+# Match tree optimization log
+## Tree of 9 buffers
+### Original buffer list:
+> [implode_displayMatrices_arrayC.arrayC_0[32], implode_displayMatrices_arrayC.arrayC_8[32], implode_displayMatrices_arrayC.arrayC_16[32], implode_displayMatrices_arrayC.arrayC_24[32], implode_displayMatrices_arrayC.arrayC_32[32], implode_displayMatrices_arrayC.arrayC_40[32], implode_displayMatrices_arrayC.arrayC_48[32], implode_displayMatrices_arrayC.arrayC_56[32], implode_displayMatrices_arrayC.arrayC[256]]
+
+### Match application log: 
+- __Step 6 - 1 matches__
+>implode_displayMatrices_arrayC.arrayC_0[-64..64[=>implode_displayMatrices_arrayC.arrayC[-64..64[  
+- __Step 6 - 1 matches__
+>implode_displayMatrices_arrayC.arrayC_32[-64..64[=>implode_displayMatrices_arrayC.arrayC[64..192[  
+
+### Tree summary:
+- From 9 buffers to 7 buffers.
+- From 1408 bytes to 1152 bytes (18.181818181818183%)
+
+### Unapplied matches:
+>implode_displayMatrices_arrayC.arrayC_8[0..32[=>implode_displayMatrices_arrayC.arrayC[32..64[, implode_displayMatrices_arrayC.arrayC_16[0..32[=>implode_displayMatrices_arrayC.arrayC[64..96[, implode_displayMatrices_arrayC.arrayC_24[0..32[=>implode_displayMatrices_arrayC.arrayC[96..128[, implode_displayMatrices_arrayC.arrayC_40[0..32[=>implode_displayMatrices_arrayC.arrayC[160..192[, implode_displayMatrices_arrayC.arrayC_48[0..32[=>implode_displayMatrices_arrayC.arrayC[192..224[, implode_displayMatrices_arrayC.arrayC_56[0..32[=>implode_displayMatrices_arrayC.arrayC[224..256[, 
+## Tree of 9 buffers
+### Original buffer list:
+> [explode_generateMatrices_arrayA.arrayA[256], explode_generateMatrices_arrayA.arrayA_0[32], explode_generateMatrices_arrayA.arrayA_8[32], explode_generateMatrices_arrayA.arrayA_16[32], explode_generateMatrices_arrayA.arrayA_24[32], explode_generateMatrices_arrayA.arrayA_32[32], explode_generateMatrices_arrayA.arrayA_40[32], explode_generateMatrices_arrayA.arrayA_48[32], explode_generateMatrices_arrayA.arrayA_56[32]]
+
+### Match application log: 
+- __Step 6 - 1 matches__
+>explode_generateMatrices_arrayA.arrayA_0[-64..64[=>explode_generateMatrices_arrayA.arrayA[-64..64[  
+- __Step 6 - 1 matches__
+>explode_generateMatrices_arrayA.arrayA_32[-64..64[=>explode_generateMatrices_arrayA.arrayA[64..192[  
+
+### Tree summary:
+- From 9 buffers to 7 buffers.
+- From 1408 bytes to 1152 bytes (18.181818181818183%)
+
+### Unapplied matches:
+>explode_generateMatrices_arrayA.arrayA[64..96[=>explode_generateMatrices_arrayA.arrayA_16[0..32[, explode_generateMatrices_arrayA.arrayA[32..64[=>explode_generateMatrices_arrayA.arrayA_8[0..32[, explode_generateMatrices_arrayA.arrayA[96..128[=>explode_generateMatrices_arrayA.arrayA_24[0..32[, explode_generateMatrices_arrayA.arrayA[160..192[=>explode_generateMatrices_arrayA.arrayA_40[0..32[, explode_generateMatrices_arrayA.arrayA[192..224[=>explode_generateMatrices_arrayA.arrayA_48[0..32[, explode_generateMatrices_arrayA.arrayA[224..256[=>explode_generateMatrices_arrayA.arrayA_56[0..32[, 
+## Tree of 9 buffers
+### Original buffer list:
+> [explode_generateMatrices_arrayB.arrayB[256], explode_generateMatrices_arrayB.arrayB_0[32], explode_generateMatrices_arrayB.arrayB_8[32], explode_generateMatrices_arrayB.arrayB_16[32], explode_generateMatrices_arrayB.arrayB_24[32], explode_generateMatrices_arrayB.arrayB_32[32], explode_generateMatrices_arrayB.arrayB_40[32], explode_generateMatrices_arrayB.arrayB_48[32], explode_generateMatrices_arrayB.arrayB_56[32]]
+
+### Match application log: 
+- __Step 6 - 1 matches__
+>explode_generateMatrices_arrayB.arrayB_0[-64..64[=>explode_generateMatrices_arrayB.arrayB[-64..64[  
+- __Step 6 - 1 matches__
+>explode_generateMatrices_arrayB.arrayB_32[-64..64[=>explode_generateMatrices_arrayB.arrayB[64..192[  
+
+### Tree summary:
+- From 9 buffers to 7 buffers.
+- From 1408 bytes to 1152 bytes (18.181818181818183%)
+
+### Unapplied matches:
+>explode_generateMatrices_arrayB.arrayB[64..96[=>explode_generateMatrices_arrayB.arrayB_16[0..32[, explode_generateMatrices_arrayB.arrayB[32..64[=>explode_generateMatrices_arrayB.arrayB_8[0..32[, explode_generateMatrices_arrayB.arrayB[96..128[=>explode_generateMatrices_arrayB.arrayB_24[0..32[, explode_generateMatrices_arrayB.arrayB[160..192[=>explode_generateMatrices_arrayB.arrayB_40[0..32[, explode_generateMatrices_arrayB.arrayB[192..224[=>explode_generateMatrices_arrayB.arrayB_48[0..32[, explode_generateMatrices_arrayB.arrayB[224..256[=>explode_generateMatrices_arrayB.arrayB_56[0..32[, 
